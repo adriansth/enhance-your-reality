@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
+// components
+import Main from '../components/Main.jsx';
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Qü</h1>
+        <Main />
       </main>
     </div>
   )

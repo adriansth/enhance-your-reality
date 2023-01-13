@@ -8,7 +8,7 @@ import { ChevronRightIcon } from '@heroicons/react/24/outline';
 
 export default function Main() {
     return(
-        <div className='h-[90vh] w-full bg-violet-900'>
+        <div className='h-[100vh] w-full bg-violet-900'>
             {/* main */}
             <div className='flex justify-center items-center h-[90vh]'>
                 {/* content container */}

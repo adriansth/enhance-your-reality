@@ -3,6 +3,7 @@ import Head from 'next/head';
 // components
 import Navbar from '../../components/global/Navbar';
 import AboutMain from '../../components/about/AboutMain';
+import AboutWidgets from '../../components/about/AboutWidgets';
 
 export default function About() {
      return(
@@ -19,6 +20,7 @@ export default function About() {
                          </div>     
                          <AboutMain />
                     </div>
+                    <AboutWidgets />
                </main>
           </div>
      );

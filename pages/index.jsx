@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Navbar from '../components/global/Navbar';
 import Main from '../components/home/Main';
 import Services from '../components/home/Services';
+import Footer from '../components/global/Footer';
+import Copyright from '../components/global/Copyright';
 
 export default function Home() {
   return (
@@ -21,6 +23,10 @@ export default function Home() {
         </div>
         <Services />
       </main>
+      <footer>
+        <Footer />
+        <Copyright />
+      </footer>
     </div>
   )
 }

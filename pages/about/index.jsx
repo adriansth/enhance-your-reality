@@ -6,6 +6,8 @@ import AboutMain from '../../components/about/AboutMain';
 import AboutWidgets from '../../components/about/AboutWidgets';
 import AboutImage from '../../components/about/AboutImage';
 import AboutContactWidgets from '../../components/about/AboutContactWidgets';
+import Footer from '../../components/global/Footer';
+import Copyright from '../../components/global/Copyright';
 
 export default function About() {
      return(
@@ -26,6 +28,10 @@ export default function About() {
                     <AboutImage />
                     <AboutContactWidgets />
                </main>
+               <footer>
+                    <Footer />
+                    <Copyright />
+               </footer>
           </div>
      );
 }

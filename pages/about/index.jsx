@@ -4,6 +4,8 @@ import Head from 'next/head';
 import Navbar from '../../components/global/Navbar';
 import AboutMain from '../../components/about/AboutMain';
 import AboutWidgets from '../../components/about/AboutWidgets';
+import AboutImage from '../../components/about/AboutImage';
+import AboutContactWidgets from '../../components/about/AboutContactWidgets';
 
 export default function About() {
      return(
@@ -21,6 +23,8 @@ export default function About() {
                          <AboutMain />
                     </div>
                     <AboutWidgets />
+                    <AboutImage />
+                    <AboutContactWidgets />
                </main>
           </div>
      );

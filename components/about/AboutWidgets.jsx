@@ -3,7 +3,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 export default function AboutWidgets() {
      return(
-          <div className='w-screen h-screen flex flex-col'>
+          <div className='w-screen md:h-screen flex flex-col'>
                {/* row 1 */}
                <div className='w-full md:h-[50vh] flex flex-col md:flex-row'>
                     {/* widget 1 */}

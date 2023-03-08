@@ -22,7 +22,11 @@ export default function Navbar() {
                               </Link>
                          </span>
                          <span className='cursor-pointer hover:text-sky-300'>Servicios</span>
-                         <span className='cursor-pointer hover:text-sky-300'>Portafolio</span>
+                         <span className='cursor-pointer hover:text-sky-300'>
+                              <Link href='/portfolio'>
+                                   Portafolio
+                              </Link>
+                         </span>
                     </div>
                     {/* dropdown menu */}
                     <div className='block md:hidden'>

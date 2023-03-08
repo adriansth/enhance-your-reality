@@ -31,12 +31,7 @@ export const clients = [
                title: 'Asesoría jurídica profesional',
                description: 'Es un despacho altamente especializado en materia penal, lo que nos permite realizar estrategias integrales para nuestros clientes. Tenemos un amplio conocimiento de los instrumentos legales inherentes al sistema de Justicia Penal (Tradicional y Acusatorio), pues nuestros socios y asociados cuentan con amplia trayectoria profesional tanto en el sector público como privado.',
                images: ['https://foverbagh.com.mx/static/media/NOSOTROS.e7ea0ae27ee187c8f5a5.webp', 'https://foverbagh.com.mx/static/media/HOME-Mercantil.c51a6df4b0b66b769e11.webp', 'https://foverbagh.com.mx/static/media/HOME-Penal.d3172710ef26707f40da.webp', 'https://foverbagh.com.mx/static/media/HOME-Fiscal.b17a04f1846b935f3f88.webp'],
-               socialMedia: {
-                    facebook: '',
-                    twitter: '',
-                    linkedin: '',
-                    instagram: '',
-               }
+               socialMedia: {}
           }
      },
 ];

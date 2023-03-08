@@ -1,9 +1,6 @@
-// assets 
-import { byr } from '../media/BYR.png';
-import { foverbagh } from '../media/Foverbagh.png';
-
 export const clients = [
      {
+          id: 1,
           name: 'BYR',
           description: 'Asesores fiscales',
           date: '27 de Febrero, 2023',
@@ -11,6 +8,7 @@ export const clients = [
           img: 'https://asesoresfiscalesbyr.com/_next/static/media/logo-mask.6e0892ba.png',
      },
      {
+          id: 2,
           name: 'Foverbagh',
           description: 'Despacho penal',
           date: '7 de marzo, 2023',

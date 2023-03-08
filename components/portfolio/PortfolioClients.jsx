@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { clients } from '../../data/clients';
 // components
 import ServiceCard from './ServiceCard';
+// next 
+import Link from 'next/link';
 
 export default function PortfolioClients() {
 
@@ -50,7 +52,9 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    clients.map((item) => (
-                                        <ServiceCard service={item} />
+                                        <Link href={`/portfolio/${item.id}`}>
+                                             <ServiceCard service={item} key={item.id} />
+                                        </Link>
                                    ))
                               }
                          </div>
@@ -62,7 +66,9 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    web.map((item) => (
-                                        <ServiceCard service={item} />
+                                        <Link href={`/portfolio/${item.id}`}>
+                                             <ServiceCard service={item} key={item.id} />
+                                        </Link>
                                    ))
                               }
                          </div>
@@ -74,7 +80,9 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    marketing.map((item) => (
-                                        <ServiceCard service={item} />
+                                        <Link href={`/portfolio/${item.id}`}>
+                                             <ServiceCard service={item} key={item.id} />
+                                        </Link>
                                    ))
                               }
                          </div>
@@ -86,7 +94,7 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    identity.map((item) => (
-                                        <ServiceCard service={item} />
+                                        <ServiceCard service={item} key={item.id} />
                                    ))
                               }
                          </div>

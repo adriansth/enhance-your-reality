@@ -1,6 +1,9 @@
 // components
 import Navbar from '../../components/global/Navbar';
 import PortfolioMain from "../../components/portfolio/PortfolioMain";
+import PortfolioClients from '../../components/portfolio/PortfolioClients';
+import Footer from '../../components/global/Footer';
+import Copyright from '../../components/global/Copyright';
 // next
 import Head from 'next/head';
 
@@ -19,7 +22,12 @@ export default function PortfolioPage() {
                          </div>
                     </div>
                     <PortfolioMain />
+                    <PortfolioClients />
                </main>
+               <footer>
+                    <Footer />
+                    <Copyright />
+               </footer>
           </>
      );
 }

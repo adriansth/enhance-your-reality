@@ -52,8 +52,8 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    clients.map((item) => (
-                                        <Link href={`/portfolio/${item.id}`}>
-                                             <ServiceCard service={item} key={item.id} />
+                                        <Link href={`/portfolio/${item.id}`} key={item.id}>
+                                             <ServiceCard service={item} />
                                         </Link>
                                    ))
                               }
@@ -66,8 +66,8 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    web.map((item) => (
-                                        <Link href={`/portfolio/${item.id}`}>
-                                             <ServiceCard service={item} key={item.id} />
+                                        <Link href={`/portfolio/${item.id}`} key={item.id}>
+                                             <ServiceCard service={item} />
                                         </Link>
                                    ))
                               }
@@ -80,8 +80,8 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    marketing.map((item) => (
-                                        <Link href={`/portfolio/${item.id}`}>
-                                             <ServiceCard service={item} key={item.id} />
+                                        <Link href={`/portfolio/${item.id}`} key={item.id}>
+                                             <ServiceCard service={item} />
                                         </Link>
                                    ))
                               }

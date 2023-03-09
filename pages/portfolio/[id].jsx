@@ -21,7 +21,7 @@ export default function ClientDescriptionPage() {
      return(
           <>
                <Head>
-                    <title>Descripción de cliente | Enhance Your Reality | Qü</title>
+                    <title>{client.name} | Enhance Your Reality | Qü</title>
                     <meta name='description' content='Enhance Your Reality | Qü' />
                     <link rel="stylesheet" href="/favicon.ico" />
                </Head>

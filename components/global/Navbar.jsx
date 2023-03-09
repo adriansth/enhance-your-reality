@@ -9,7 +9,9 @@ export default function Navbar() {
                <div className='flex justify-between p-10 items-center'>
                     {/* logo */}
                     <div>
-                         <span className='text-4xl font-bold text-white hover:text-sky-300 cursor-pointer'>Qü</span>
+                         <Link href='/'>
+                              <span className='text-4xl font-bold text-white hover:text-sky-300 cursor-pointer'>Qü</span>
+                         </Link>
                     </div>
                     {/* navs */}
                     <div className='hidden md:flex text-md font-bold gap-x-10 text-white items-center'>
@@ -25,6 +27,11 @@ export default function Navbar() {
                          <span className='cursor-pointer hover:text-sky-300'>
                               <Link href='/portfolio'>
                                    Portafolio
+                              </Link>
+                         </span>
+                         <span className='cursor-pointer hover:text-sky-300'>
+                              <Link href='/contact'>
+                                   Contacto
                               </Link>
                          </span>
                     </div>

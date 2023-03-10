@@ -94,7 +94,9 @@ export default function PortfolioClients() {
                          <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    identity.map((item) => (
-                                        <ServiceCard service={item} key={item.id} />
+                                        <Link href={`/portfolio/${item.id}`} key={item.id}>
+                                             <ServiceCard service={item} />
+                                        </Link>
                                    ))
                               }
                          </div>

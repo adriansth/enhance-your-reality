@@ -10,7 +10,7 @@ export default function ClientDescriptionInfo({ name, date, images, title, descr
                <div className='w-full lg:w-[65%] flex flex-col lg:flex-row lg:flex-wrap lg:py-20 pt-20 pb-0 justify-center items-center'>
                     {
                          images.map((img) => (
-                              <img className='w-full lg:w-[300px] h-[300px] 2xl:w-[500px] 2xl:h-[500px] object-cover' src={img} alt="" />
+                              <img className='w-full lg:w-[300px] h-[300px] 2xl:w-[500px] 2xl:h-[500px] object-cover' src={img} alt="" key={img} />
                          ))
                     }
                </div>

@@ -7,7 +7,7 @@ export default function ContactForm() {
                {/* info */}
                <div className='w-full md:w-[50%] flex flex-col gap-y-5 pr-0 md:pr-10'>
                     <h2 className='text-3xl md:text-5xl font-semibold'>Contáctanos</h2>
-                    <h3 className='text-md md:text-lg'>¿Qué puedo hacer por ti?</h3>
+                    <h3 className='text-md9 md:text-lg'>¿Qué puedo hacer por ti?</h3>
                     <p className='font-light text-gray-700 text-sm'>Para más información, dudas y adquisición de alguno de nuestros servicios, utiliza este formulario de contacto. Nosotros nos pondremos en contacto contigo al correo proporcionado y abriremos una conversación con respecto a tus necesidades.</p>
                     <div className='flex flex-col'>
                          <span className='text-sm font-light'>contacto@enhanceyoureality.com</span>

@@ -11,8 +11,8 @@ export default function ContactPage() {
      return(
           <>
                <Head>
-                    <title>Contacto | Enhance Your Reality | Qü</title>
-                    <meta name='description' content='Enhance Your Reality | Qü' />
+                    <title>Contacto | Enhance Your Reality | Qüu</title>
+                    <meta name='description' content='Enhance Your Reality | Qüu' />
                     <link rel="stylesheet" href="/favicon.ico" />
                </Head>
                <main>

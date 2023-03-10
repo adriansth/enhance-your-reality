@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Enhance Your Reality | Qü</title>
-        <meta name="description" content="Enhance Your Reality | Qü" />
+        <title>Enhance Your Reality | Qüu</title>
+        <meta name="description" content="Enhance Your Reality | Qüu" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>

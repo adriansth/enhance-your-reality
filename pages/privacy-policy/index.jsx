@@ -10,8 +10,8 @@ export default function PrivacyPolicyPage() {
      return(
           <div>
                <Head>
-                    <title>Política de Privacidad | Enhance Your Reality | Qü</title>
-                    <meta name='description' content='Enhance Your Reality | Qü' />
+                    <title>Política de Privacidad | Enhance Your Reality | Qüu</title>
+                    <meta name='description' content='Enhance Your Reality | Qüu' />
                     <link rel="stylesheet" href="/favicon.ico" />
                </Head>
                <main>

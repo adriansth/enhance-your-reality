@@ -13,8 +13,8 @@ export default function About() {
      return(
           <div>
                <Head>
-                    <title>Nosotros | Enhance Your Reality | Qü</title>
-                    <meta name='description' content='Enhance Your Reality | Qü' />
+                    <title>Nosotros | Enhance Your Reality | Qüu</title>
+                    <meta name='description' content='Enhance Your Reality | Qüu' />
                     <link rel="icon" href="/favicon.ico" />
                </Head>
                <main>

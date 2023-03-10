@@ -6,6 +6,7 @@ import facebook from '../../media/footer-facebook.svg';
 import instagram from '../../media/footer-instagram.svg';
 import linkedin from '../../media/footer-linkedin.svg';
 import twitter from '../../media/footer-twitter.svg';
+import logo from '../../media/white-logo-horizontal.png';
 
 export default function Footer() {
      return(
@@ -13,7 +14,7 @@ export default function Footer() {
                <div className='w-[70%] md:w-[30%] flex flex-col gap-y-5'>
                     {/* logo */}
                     <div className='flex justify-center items-center'>
-                         <span className='text-2xl xl:text-4xl font-bold text-white hover:text-sky-300 cursor-pointer text-center'>Enhance Your Reality | Qü</span>
+                         <Image src={logo} />
                     </div>
                     {/* navs */}
                     <div className='flex flex-col md:flex-row items-center gap-y-2 justify-around gap-x-10 font-bold text-md text-white'>

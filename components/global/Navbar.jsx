@@ -2,6 +2,9 @@
 import { Bars3Icon } from '@heroicons/react/24/outline';
 // nextjs 
 import Link from 'next/link';
+import Image from 'next/image';
+// assets 
+import logo from '../../media/white-logo-horizontal.png';
 
 export default function Navbar() {
      return(
@@ -10,7 +13,7 @@ export default function Navbar() {
                     {/* logo */}
                     <div>
                          <Link href='/'>
-                              <span className='text-4xl font-bold text-white hover:text-sky-300 cursor-pointer'>Qü</span>
+                              <Image src={logo} alt="logo" width='150' />
                          </Link>
                     </div>
                     {/* navs */}

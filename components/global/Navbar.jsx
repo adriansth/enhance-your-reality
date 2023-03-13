@@ -26,7 +26,11 @@ export default function Navbar() {
                                    Nosotros
                               </Link>
                          </span>
-                         <span className='cursor-pointer hover:text-sky-300'>Servicios</span>
+                         <span className='cursor-pointer hover:text-sky-300'>
+                              <Link href='/services'>
+                                   Servicios
+                              </Link>
+                         </span>
                          <span className='cursor-pointer hover:text-sky-300'>
                               <Link href='/portfolio'>
                                    Portafolio

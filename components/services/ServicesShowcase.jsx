@@ -11,7 +11,7 @@ export default function ServicesShowcase() {
                <div className='w-full flex flex-col mt-5 lg:mt-0 gap-y-10 lg:flex-row justify-center gap-x-5'>
                     {
                          services.map((service) => (
-                              <ServiceDescriptionCard key={service.id} name={service.name} description={service.description} available={service.available} image={service.img} />
+                              <ServiceDescriptionCard key={service.id} name={service.name} description={service.description} available={service.available} image={service.img} link={service.link} />
                          ))
                     }
                </div>

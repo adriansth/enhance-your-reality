@@ -11,8 +11,8 @@ export default function ServicesPage() {
      return(
           <>
                <Head>
-                    <title>Services | Enhance Your Reality | Qüu</title>
-                    <meta name='description' content='Services | Enhance Your Reality | Qüu' />
+                    <title>Servicios | Enhance Your Reality | Qüu</title>
+                    <meta name='description' content='Servicios | Enhance Your Reality | Qüu' />
                     <link rel="icon" href="/favicon.ico" />
                </Head>
                <main>

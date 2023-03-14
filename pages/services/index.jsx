@@ -3,6 +3,7 @@ import Head from 'next/head';
 // components 
 import Navbar from '../../components/global/Navbar';
 import ServicesMain from '../../components/services/ServicesMain';
+import ServicesShowcase from '../../components/services/ServicesShowcase';
 import Footer from '../../components/global/Footer';
 import Copyright from '../../components/global/Copyright';
 
@@ -21,6 +22,7 @@ export default function ServicesPage() {
                          </div>
                          <ServicesMain />
                     </div>
+                    <ServicesShowcase />
                </main>
                <footer>
                     <Footer />

@@ -2,6 +2,7 @@
 import Head from 'next/head';
 // components
 import Navbar from '../../../components/global/Navbar';
+import WebDevelopmentMain from '../../../components/services/web-development/WebDevelopmentMain';
 import Footer from '../../../components/global/Footer';
 import Copyright from '../../../components/global/Copyright';
 
@@ -19,6 +20,7 @@ export default function WebDevelopmentPage() {
                               <Navbar />
                          </div>
                     </div>
+                    <WebDevelopmentMain />
                </main>
                <footer>
                     <Footer />

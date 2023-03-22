@@ -19,7 +19,7 @@ export const services = [
           id: 3,
           name: 'Identidad de Marca',
           link: 'identity',
-          available: true,
+          available: false,
           description: 'Creamos tu logo y los grupos de estilos necesarios para tener una identidad de marca atractiva y profesional.',
           img: 'https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
      }

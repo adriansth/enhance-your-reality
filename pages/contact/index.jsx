@@ -2,6 +2,7 @@
 import Head from 'next/head';
 // components
 import Navbar from '../../components/global/Navbar';
+import NavbarDynamic from '../../components/global/NavbarDynamic';
 import ContactMain from '../../components/contact/ContactMain';
 import Footer from '../../components/global/Footer';
 import Copyright from '../../components/global/Copyright';
@@ -19,6 +20,7 @@ export default function ContactPage() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>
                     </div>
                     <ContactMain />

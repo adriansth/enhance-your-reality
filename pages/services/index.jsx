@@ -2,6 +2,7 @@
 import Head from 'next/head';
 // components 
 import Navbar from '../../components/global/Navbar';
+import NavbarDynamic from '../../components/global/NavbarDynamic';
 import ServicesMain from '../../components/services/ServicesMain';
 import ServicesShowcase from '../../components/services/ServicesShowcase';
 import Footer from '../../components/global/Footer';
@@ -19,6 +20,7 @@ export default function ServicesPage() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>
                          <ServicesMain />
                     </div>

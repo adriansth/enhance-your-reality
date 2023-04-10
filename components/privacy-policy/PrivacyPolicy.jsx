@@ -5,17 +5,17 @@ export default function PrivacyPolicy() {
                <div className='bg-violet-900 pt-36 pb-10 shadow-md flex flex-col items-center px-8'>
                     <h1 className='text-4xl md:text-7xl font-bold text-white text-center mb-5'>Aviso de Privacidad</h1>
                     <div className='w-[40%] h-1 bg-gray-400 mb-5'></div>
-                    <h2 className='text-xl md:text-4xl text-white font-semibold text-center'>Qü | Enhance Your Reality</h2>
+                    <h2 className='text-xl md:text-4xl text-white font-semibold text-center'>Qüu | Enhance Your Reality</h2>
                </div>
                {/* text */}
                <div className='w-full bg-white px-8 md:px-16 lg:px-64 py-20'>
                     <p className='text-end font-bold text-md md:text-xl mb-5'>Última actualización 14 enero 2023</p>
                     <div className='text-gray-500 font-light flex flex-col gap-y-5 text-justify'>
                          <p>
-                              Cada vez que usted en calidad de usuario accede a nuestro Sitio Web y se encuentra con los servicios que se ofrecen en [Qü | Enhance Your Reality], se recopilan y procesan información sobre el usuario, a la que se le hace referencia como sus “datos personales”. Este aviso de privacidad describe el proceso de recopilación de datos personales y cómo [Qü | Enhance Your Reality], hace uso, trata y protege estos datos personales recabados. También se enuncian los derechos del usuario con respecto a sus datos personales y cómo puede ponerse en contacto con [Qü | Enhance Your Reality] para poder actualizar, rectificar o eliminar estos datos.
+                              Cada vez que usted en calidad de usuario accede a nuestro Sitio Web y se encuentra con los servicios que se ofrecen en [Qüu | Enhance Your Reality], se recopilan y procesan información sobre el usuario, a la que se le hace referencia como sus “datos personales”. Este aviso de privacidad describe el proceso de recopilación de datos personales y cómo [Qüu | Enhance Your Reality], hace uso, trata y protege estos datos personales recabados. También se enuncian los derechos del usuario con respecto a sus datos personales y cómo puede ponerse en contacto con [Qüu | Enhance Your Reality] para poder actualizar, rectificar o eliminar estos datos.
                          </p>
                          <p>
-                              Debido a la naturaleza de gran importancia que contiene este Aviso de Privacidad, [Qü | Enhance Your Reality] invita de manera muy atenta a todos sus usuarios a leer y familiarizarse con este documento. Si algún tipo de información no queda clara, por favor póngase en contacto con nosotros vía correo electrónico en contact@enhanceyoureality.com.
+                              Debido a la naturaleza de gran importancia que contiene este Aviso de Privacidad, [Qüu | Enhance Your Reality] invita de manera muy atenta a todos sus usuarios a leer y familiarizarse con este documento. Si algún tipo de información no queda clara, por favor póngase en contacto con nosotros vía correo electrónico en contact@enhanceyoureality.com.
                          </p>
                          <p>
                               Al hacer uso de nuestro Sitio Web usted está de acuerdo con todos los apartados de este Aviso de Privacidad que se enuncian a continuación:
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
                               A) De la recopilación de datos personales.
                          </h3>
                          <p>
-                              Para que los servicios de [Qü | Enhance Your Reality] se encuentren disponibles en su totalidad para usted o para cumplir con determinadas actividades comerciales u obligaciones legales, es necesario por nuestra parte recopilar y usar datos personales del usuario. En caso de que no proporcione la información que solicitamos, es posible que no podamos ofrecerle los servicios que ha solicitado. Parte de esta información la recopilamos directamente en persona o a través de un sitio web, aplicación o redes sociales. 
+                              Para que los servicios de [Qüu | Enhance Your Reality] se encuentren disponibles en su totalidad para usted o para cumplir con determinadas actividades comerciales u obligaciones legales, es necesario por nuestra parte recopilar y usar datos personales del usuario. En caso de que no proporcione la información que solicitamos, es posible que no podamos ofrecerle los servicios que ha solicitado. Parte de esta información la recopilamos directamente en persona o a través de un sitio web, aplicación o redes sociales. 
                          </p>
                          <h3 className='font-bold text-black'>
                               B) De las ocasiones de recopilación de datos personales
@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
                               Usted como usuario de nuestro Sitio Web está en contacto con nuestros servicios contables y de asesoría fiscal, los cuales se incluyen en diferentes medios de difusión e incluso aplicaciones móviles y motores de búsqueda.
                          </p>
                          <p>
-                              Al hacer uso de la navegación de internet e interactuar con nuestro Sitio Web o redes sociales, [Qü | Enhance Your Reality] recopila datos personales cuando:
+                              Al hacer uso de la navegación de internet e interactuar con nuestro Sitio Web o redes sociales, [Qüu | Enhance Your Reality] recopila datos personales cuando:
                          </p>
                          <ul className='pl-10'>
                               <li>(i) Llena un formulario de contacto.</li>
@@ -57,13 +57,13 @@ export default function PrivacyPolicy() {
                               C) De la recopilación de datos personales a través de fuentes externa
                          </h3>
                          <p>
-                              [Qü | Enhance Your Reality] en su función como empresa sujeta a las leyes mexicanas recopila información personal de otras fuentes de terceros, como sería la revisión de los datos personales recibidos como parte de las comprobaciones rutinarias de verificación de formas de pago para evitar fraudes.
+                              [Qüu | Enhance Your Reality] en su función como empresa sujeta a las leyes mexicanas recopila información personal de otras fuentes de terceros, como sería la revisión de los datos personales recibidos como parte de las comprobaciones rutinarias de verificación de formas de pago para evitar fraudes.
                          </p>
                          <h3 className='font-bold text-black'>
                               D) Del uso de los datos personales 
                          </h3>
                          <p>
-                              [Qü | Enhance Your Reality] hará uso de sus datos personales para fines comerciales legítimos, como se describe a continuación.
+                              [Qüu | Enhance Your Reality] hará uso de sus datos personales para fines comerciales legítimos, como se describe a continuación.
                          </p>
                          <h4 className='font-bold'>
                               Brindar acceso a nuestros servicios:
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
                               Tenemos un interés legítimo para revelar o transferir su información personal a un tercero en caso de que realicemos cualquier reorganización, fusión, venta, empresa conjunta, traspaso u otra disposición que afecte a toda nuestra empresa o a una parte de la misma, a nuestros activos o a nuestras acciones (entre lo que se incluye cualquier acción relacionada con la quiebra o procedimientos similares). Entre dichos terceros se pueden incluir, por ejemplo, una entidad compradora y sus asesores.
                          </p>
                          <p>
-                              También podemos divulgar información personal para cumplir con obligaciones legales (como el pago de impuestos); para responder a las solicitudes del gobierno u otras autoridades públicas; para proteger los derechos, privacidad, seguridad o propiedad de [Qü | Enhance Your Reality], usted u otros; y para permitirnos buscar soluciones disponibles o limitar los daños que podamos sufrir. Entre estas obligaciones legales y requerimientos gubernamentales se pueden incluir leyes y autoridades externas a su país de residencia.
+                              También podemos divulgar información personal para cumplir con obligaciones legales (como el pago de impuestos); para responder a las solicitudes del gobierno u otras autoridades públicas; para proteger los derechos, privacidad, seguridad o propiedad de [Qüu | Enhance Your Reality], usted u otros; y para permitirnos buscar soluciones disponibles o limitar los daños que podamos sufrir. Entre estas obligaciones legales y requerimientos gubernamentales se pueden incluir leyes y autoridades externas a su país de residencia.
                          </p>
                          <h5 className='underline'>Usos y divulgación de otra información:</h5>
                          <p>
@@ -152,7 +152,7 @@ export default function PrivacyPolicy() {
                               Puede solicitar acceder a su información personal, modificarla o eliminarla. También puede solicitar recibir una copia electrónica de su información personal para transferirla a otra compañía (siempre y cuando las leyes pertinentes permitan esta portabilidad de información). En cada caso, es posible que le pidamos que demuestre su identidad o proporcione información adicional para identificar su información. Atenderemos sus solicitudes cumpliendo con las leyes pertinentes.
                          </p>
                          <p>
-                              En [Qü | Enhance Your Reality] nos tomamos la seguridad de su información muy en serio. Esta sección describe nuestras prácticas tecnológicas para mantener su información protegida. Por favor, haga clic en los enlaces para obtener más información.
+                              En [Qüu | Enhance Your Reality] nos tomamos la seguridad de su información muy en serio. Esta sección describe nuestras prácticas tecnológicas para mantener su información protegida. Por favor, haga clic en los enlaces para obtener más información.
                          </p>
                          <p>
                               Contamos con varias medidas y herramientas de seguridad, como firewalls, para ayudar a proteger contra la pérdida, el uso indebido y la alteración de la información personal bajo nuestro control. Desafortunadamente, no se puede garantizar que la transmisión de datos a través de Internet o del sistema de almacenamiento de datos sea 100% segura. Por favor, no nos envíe información personal confidencial.

@@ -2,6 +2,7 @@
 import Head from 'next/head';
 // components 
 import Navbar from '../../components/global/Navbar';
+import NavbarDynamic from '../../components/global/NavbarDynamic';
 import PrivacyPolicy from '../../components/privacy-policy/PrivacyPolicy';
 import Footer from '../../components/global/Footer';
 import Copyright from '../../components/global/Copyright';
@@ -18,6 +19,7 @@ export default function PrivacyPolicyPage() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>
                          <PrivacyPolicy />
                     </div>

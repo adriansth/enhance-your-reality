@@ -22,5 +22,13 @@ export const services = [
           available: false,
           description: 'Creamos tu logo y los grupos de estilos necesarios para tener una identidad de marca atractiva y profesional.',
           img: 'https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-     }
+     },
+     {
+          id: 4,
+          name: 'Apps',
+          link: 'apps',
+          available: true,
+          description: 'Creamos tu aplicación móvil web personalizada y a tu medida, además de servicios predeterminados que ayudarían a tu negocio a impulsarse en el mercado.',
+          img: 'https://images.pexels.com/photos/3585092/pexels-photo-3585092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+     },
 ]

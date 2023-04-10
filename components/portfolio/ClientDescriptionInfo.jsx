@@ -9,7 +9,7 @@ export default function ClientDescriptionInfo({ name, date, images, title, descr
                {/* images */}
                <div className='w-full lg:w-[65%] flex flex-col lg:flex-row lg:flex-wrap lg:py-20 pt-20 pb-0 justify-center items-center'>
                     {
-                         images.map((img) => (
+                         images?.map((img) => (
                               <img className='w-full lg:w-[300px] h-[300px] 2xl:w-[500px] 2xl:h-[500px] object-cover' src={img} alt="" key={img} />
                          ))
                     }
@@ -32,30 +32,30 @@ export default function ClientDescriptionInfo({ name, date, images, title, descr
                     </div>
                     {/* social media */}
                     {
-                         (social.twitter || social.facebook || social.linkedin || social.instagram) &&
+                         (social?.twitter || social?.facebook || social?.linkedin || social?.instagram) &&
                          <div className='flex flex-col'>
                               <h3 className='text-xl font-bold pb-5'>REDES SOCIALES</h3>
                               <div className='w-full flex justify-start gap-x-3'>
                                    {
-                                        social.facebook && 
+                                        social?.facebook && 
                                         <Link href={social.facebook} target='_blank'>
                                              <img src='https://img.icons8.com/ios-glyphs/256/facebook-circled--v1.png' alt="" className='w-5 h-5 hover:opacity-50 cursor-pointer' />
                                         </Link>
                                    }
                                    {    
-                                        social.twitter &&
+                                        social?.twitter &&
                                         <Link href={social.twitter} target='_blank'>
                                              <img src='https://img.icons8.com/ios-glyphs/256/twitter--v1.png' alt="" className='w-5 h-5 hover:opacity-50 cursor-pointer' />
                                         </Link>
                                    }
                                    {
-                                   social.linkedin && 
-                                   <Link href={social.linkedin} target='blank'>
-                                        <img src='https://img.icons8.com/ios-glyphs/256/linkedin-circled--v1.png' alt="" className='w-5 h-5 hover:opacity-50 cursor-pointer' />
-                                   </Link>  
+                                        social?.linkedin && 
+                                        <Link href={social.linkedin} target='blank'>
+                                             <img src='https://img.icons8.com/ios-glyphs/256/linkedin-circled--v1.png' alt="" className='w-5 h-5 hover:opacity-50 cursor-pointer' />
+                                        </Link>  
                                    }
                                    {
-                                        social.instagram && 
+                                        social?.instagram && 
                                         <Link href={social.instagram} target='blank'>
                                              <img src='https://img.icons8.com/ios-glyphs/256/instagram-new.png' alt="" className='w-5 h-5 hover:opacity-50 cursor-pointer' />
                                         </Link>

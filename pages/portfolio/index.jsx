@@ -1,6 +1,8 @@
 // components
 import Navbar from '../../components/global/Navbar';
+import NavbarDynamic from '../../components/global/NavbarDynamic';
 import PortfolioMain from "../../components/portfolio/PortfolioMain";
+import PortfolioDescription from '../../components/portfolio/PortfolioDescription';
 import PortfolioClients from '../../components/portfolio/PortfolioClients';
 import Footer from '../../components/global/Footer';
 import Copyright from '../../components/global/Copyright';
@@ -19,9 +21,11 @@ export default function PortfolioPage() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>
                     </div>
                     <PortfolioMain />
+                    <PortfolioDescription />
                     <PortfolioClients />
                </main>
                <footer>

@@ -2,6 +2,7 @@
 import Head from 'next/head';
 // components
 import Navbar from '../../../components/global/Navbar';
+import NavbarDynamic from '../../../components/global/NavbarDynamic';
 import Footer from '../../../components/global/Footer';
 import Copyright from '../../../components/global/Copyright';
 
@@ -17,6 +18,7 @@ export default function IdentityPage() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>
                     </div>
                </main>

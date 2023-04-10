@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function ServiceDescriptionCard({ name, description, available, image, link }) {
      return(
-          <Link href={`/services/${link}`} className='w-full lg:w-[25%] xl:w-[20%] border flex flex-col justify-between rounded-lg hover:scale-105 transition-transform cursor-pointer shadow-lg hover:bg-slate-100'>
+          <Link href={`/services/${link}`} className='w-[275px] border flex flex-col justify-between rounded-lg hover:scale-105 transition-transform cursor-pointer shadow-lg hover:bg-slate-100'>
                {/* info */}
                <div className='flex flex-col gap-y-5 p-5'>
                     <div className='flex justify-between'>

@@ -1,8 +1,11 @@
 import Head from 'next/head';
 // components
 import Navbar from '../components/global/Navbar';
+import NavbarDynamic from '../components/global/NavbarDynamic';
 import Main from '../components/home/Main';
+import Description from '../components/home/Description';
 import Services from '../components/home/Services';
+import Contact from '../components/home/Contact';
 import Footer from '../components/global/Footer';
 import Copyright from '../components/global/Copyright';
 
@@ -18,10 +21,13 @@ export default function Home() {
         <div className='relative'>
           <div className='absolute'>
             <Navbar />
+            <NavbarDynamic />
           </div>
           <Main />
         </div>
         <Services />
+        <Description />
+        <Contact />
       </main>
       <footer>
         <Footer />

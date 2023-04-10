@@ -2,7 +2,9 @@
 import Head from 'next/head';
 // components
 import Navbar from '../../components/global/Navbar';
+import NavbarDynamic from '../../components/global/NavbarDynamic';
 import AboutMain from '../../components/about/AboutMain';
+import AboutDescription from '../../components/about/AboutDescription';
 import AboutWidgets from '../../components/about/AboutWidgets';
 import AboutImage from '../../components/about/AboutImage';
 import AboutContactWidgets from '../../components/about/AboutContactWidgets';
@@ -21,11 +23,13 @@ export default function About() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>     
                          <AboutMain />
                     </div>
-                    <AboutWidgets />
+                    <AboutDescription />
                     <AboutImage />
+                    <AboutWidgets />
                     <AboutContactWidgets />
                </main>
                <footer>

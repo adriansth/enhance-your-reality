@@ -5,8 +5,18 @@ import Link from 'next/link';
 import Image from 'next/image';
 // assets 
 import logo from '../../media/white-logo-horizontal.png';
+// components
+import DropdownModal from './DropdownModal';
+// redux 
+import { useDispatch, useSelector } from 'react-redux';
 
 export default function Navbar() {
+
+     // redux
+     const dispatch = useDispatch();
+     const openModal = () => dispatch({ type: 'OPEN_HAMBURGER' });
+     const modal = useSelector(state => state.hamburgerOpened);
+
      return(
           <div className='h-[10vh] w-screen z-10'>
                <div className='flex justify-between p-10 items-center'>
@@ -28,7 +38,7 @@ export default function Navbar() {
                          </span>
                          <span className='cursor-pointer hover:text-sky-300'>
                               <Link href='/services'>
-                                   Servicios
+                                   Soluciones
                               </Link>
                          </span>
                          <span className='cursor-pointer hover:text-sky-300'>
@@ -44,8 +54,18 @@ export default function Navbar() {
                     </div>
                     {/* dropdown menu */}
                     <div className='block md:hidden'>
-                         <Bars3Icon className='w-10 text-white hover:text-sky-300 cursor-pointer' />
+                         <Bars3Icon
+                              className='w-10 text-white hover:text-sky-300 cursor-pointer'
+                              onClick={() => openModal()}
+                         />
                     </div>
+                    {
+                         modal && (
+                              <div className='absolute top-0 left-0'>
+                                   <DropdownModal />
+                              </div>
+                         )
+                    }
                </div>
           </div>
      );

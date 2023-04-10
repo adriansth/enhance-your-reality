@@ -2,6 +2,7 @@
 import Head from 'next/head';
 // components
 import Navbar from '../../../components/global/Navbar';
+import NavbarDynamic from '../../../components/global/NavbarDynamic';
 import WebDevelopmentMain from '../../../components/services/web-development/WebDevelopmentMain';
 import WebDevelopmentShocase from '../../../components/services/web-development/WebDevelopmentShowcase';
 import Footer from '../../../components/global/Footer';
@@ -19,6 +20,7 @@ export default function WebDevelopmentPage() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>
                     </div>
                     <WebDevelopmentMain />

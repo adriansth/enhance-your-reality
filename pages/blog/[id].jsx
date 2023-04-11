@@ -61,20 +61,20 @@ export default function ArticlePage() {
                }
             </div>
             {/* article content and sidebar */}
-            <div className='w-screen flex'>
+            <div className='w-screen flex flex-col-reverse lg:flex-row'>
                {/* article content */}
-               <div className='w-[70%] pl-20 pr-10 py-20 text-justify'>
+               <div className='w-full lg:w-[70%] px-10 md:px-20 lg:pl-20 lg:pr-10 pt-10 pb-20 lg:py-20 text-justify'>
                   {cleanContent ? parse(cleanContent) : ''}
                </div>
-               <div className='w-[30%]'>
-               <BlogSidebar />
+               <div className='hidden lg:flex w-[30%]'>
+                  <BlogSidebar />
                </div>
             </div>
             {/* override styles */}
             <style jsx global>{`
                     h3 {
                         font-weight: semibold;
-                        font-size: 1.8rem;
+                        font-size: 1.5rem;
                         margin-top: 1rem;
                         margin-bottom: 1rem;
                     }

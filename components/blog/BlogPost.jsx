@@ -29,14 +29,14 @@ export default function BlogPost({ id, title, content, date, tags }) {
             </div>
          }
          {/* title */}
-         <h3 className='text-4xl font-semibold hover:text-sky-400 transition-colors'>
+         <h3 className='text-2xl md:text-4xl font-semibold hover:text-sky-400 transition-colors text-justify'>
             <Link href={`/blog/${id}`}>
                {title}
             </Link>
          </h3>
          {/* content short */}
          <div>
-            <p className='text-gray-500 font-light'>
+            <p className='text-sm md:text-md text-gray-500 font-light text-justify'>
                {cleanText}
             </p>
          </div>

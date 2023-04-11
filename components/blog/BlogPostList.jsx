@@ -19,7 +19,7 @@ export default function BlogPostList() {
    }, []);
 
    return(
-      <div className='w-[70vw] py-20 pl-20 pr-10'>
+      <div className='w-full lg:w-[70vw] py-20 px-10 md:px-20 lg:pl-20 lg:pr-10'>
          {
             data?.map((article) => (
                <BlogPost key={article.id} id={article.id} title={article.title} content={article.content} date={article.published} tags={article.labels} />

@@ -26,7 +26,7 @@ export default function Blog() {
                </div>
             </div>
             <BlogMain />
-            <div className='flex'>
+            <div className='flex flex-col-reverse lg:flex-row'>
                <BlogPostList />
                <BlogSidebar />
             </div>

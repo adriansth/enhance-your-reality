@@ -36,7 +36,7 @@ export default function ClientDescriptionPage() {
                     </div>
                     {
                          clients.filter((client) => client?.name === name).map((item) => (
-                              <div>
+                              <div key={client?.name}>
                                    <ClientDescriptionMain name={item?.name} description={item?.description} />
                                    <ClientDescriptionInfo name={item?.name} date={item?.date} images={item?.content?.images} title={item?.content?.title} description={item?.content?.description} social={item?.content?.socialMedia} url={item?.url} />
                               </div>

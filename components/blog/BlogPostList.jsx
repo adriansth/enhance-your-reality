@@ -22,7 +22,7 @@ export default function BlogPostList() {
       <div className='w-[70vw] py-20 pl-20 pr-10'>
          {
             data?.map((article) => (
-               <BlogPost key={article.id} title={article.title} content={article.content} />
+               <BlogPost key={article.id} id={article.id} title={article.title} content={article.content} date={article.published} tags={article.labels} />
             ))
          }
       </div>

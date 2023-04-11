@@ -22,7 +22,7 @@ export default function BlogPost({ id, title, content, date, tags }) {
                <div className='absolute bottom-3 left-3 flex gap-x-1'>
                   {
                      tags?.map((tag) => (
-                        <span className='bg-sky-400 shadow-lg text-white px-2 py-1 text-xs font-semibold rounded-lg'>{tag}</span>
+                        <span key={tag} className='bg-sky-400 shadow-lg text-white px-2 py-1 text-xs font-semibold rounded-lg'>{tag}</span>
                      ))
                   }
                </div>

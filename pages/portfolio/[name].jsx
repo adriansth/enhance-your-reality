@@ -16,8 +16,6 @@ export default function ClientDescriptionPage() {
      const router = useRouter();
      const { name } = router.query; // extract name from url
 
-     const client = clients.filter((client) => client.name === name)[0];
-
      return(
           <>
                <Head>
@@ -29,10 +27,17 @@ export default function ClientDescriptionPage() {
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
+                              <NavbarDynamic />
                          </div>
                     </div>
-                    <ClientDescriptionMain name={client?.name} description={client?.description} />
-                    <ClientDescriptionInfo name={client?.name} date={client?.date} images={client?.content?.images} title={client?.content?.title} description={client?.content?.description} social={client?.content?.socialMedia} url={client?.url} />
+                    {
+                         clients.filter((client) => client?.name === name).map((item) => (
+                              <div>
+                                   <ClientDescriptionMain name={item?.name} description={item?.description} />
+                                   <ClientDescriptionInfo name={item?.name} date={item?.date} images={item?.content?.images} title={item?.content?.title} description={item?.content?.description} social={item?.content?.socialMedia} url={item?.url} />
+                              </div>
+                         ))
+                    }
                </main>
                <footer>
                     <Footer />

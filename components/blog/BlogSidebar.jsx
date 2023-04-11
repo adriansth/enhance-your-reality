@@ -33,7 +33,7 @@ export default function BlogSidebar() {
             <div className='text-gray-500 font-semibold flex flex-col gap-y-3'>
                {
                   posts.map((post) => (
-                     <Link href={`/blog/${post?.id}`}>
+                     <Link key={post?.id} href={`/blog/${post?.id}`}>
                         <li className='list-disc hover:text-sky-400 transition-colors text-justify text-xs lg:text-md'>{post?.title}</li>
                      </Link>
                   ))

@@ -34,7 +34,7 @@ export default function AboutWidgets() {
             <span className="text-sm lg:text-md font-bold">PROYECTOS</span>
           </div>
           <div className="flex flex-col items-center">
-            <span className="text-5xl font-bold text-violet-900">2</span>
+            <span className="text-5xl font-bold text-violet-900">3</span>
             <span className="text-sm lg:text-md font-bold">SITIOS WEB</span>
           </div>
           <div className="flex flex-col items-center">

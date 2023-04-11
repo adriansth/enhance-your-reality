@@ -22,7 +22,7 @@ export default function NavbarDynamic() {
    // redux 
    const dispatch = useDispatch();
    const openModal = () => dispatch({ type: 'OPEN_HAMBURGER' });
-   const modal = useSelector(state => state.hamburgerOpened);
+   const modal = useSelector(state => state.hamburgerOpened);  
 
    const controlNavbar = () => {
       if (typeof window !== 'undefined') {
@@ -86,11 +86,11 @@ export default function NavbarDynamic() {
                         />
                      </div>
                      {
-                        modal && (
+                        modal ? (
                            <div className='absolute top-0 left-0'>
                               <DropdownModal />
                            </div>
-                        )
+                        ) : ''
                      }
                   </div>
                </motion.div>

@@ -16,22 +16,22 @@ export default function DropdownModal() {
             <XMarkIcon onClick={() => closeModal()} className='w-10 text-white hover:text-sky-300 cursor-pointer' />
          </div>
          <span className='hover:text-sky-300'>
-            <Link href='/'>Home</Link>
+            <Link href='/' onClick={closeModal}>Home</Link>
          </span>
          <span className='hover:text-sky-300'>
-            <Link href='/about'>Nosotros</Link>
+            <Link href='/about' onClick={closeModal}>Nosotros</Link>
          </span>
          <span className='hover:text-sky-300'>
-            <Link href='/services'>Soluciones</Link>
+            <Link href='/services' onClick={closeModal}>Soluciones</Link>
          </span>
          <span className='hover:text-sky-300'>
-            <Link href='/portfolio'>Portafolio</Link>
+            <Link href='/portfolio' onClick={closeModal}>Portafolio</Link>
          </span>
          <span className='hover:text-sky-300'>
-            <Link href='/blog'>Blog</Link>
+            <Link href='/blog' onClick={closeModal}>Blog</Link>
          </span>
          <span className='hover:text-sky-300'>
-            <Link href='/contact'>Contacto</Link>
+            <Link href='/contact' onClick={closeModal}>Contacto</Link>
          </span>
       </div>
    );

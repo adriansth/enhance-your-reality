@@ -17,7 +17,7 @@ export default function PortfolioPage() {
                     <meta name='description' content='Enhance Your Reality | Qüu' />
                     <link rel="stylesheet" href="/favicon.ico" />
                </Head>
-               <main>
+               <main className='w-screen'>
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />

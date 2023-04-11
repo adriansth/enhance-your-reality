@@ -27,19 +27,19 @@ export default function AboutWidgets() {
           </Link>
         </div>
         {/* widget 3 */}
-        <div className="w-full md:w-[33.4vw] h-full bg-white flex flex-row md:flex-col xl:flex-row gap-y-5 items-center justify-around md:justify-center xl:justify-around p-10 sm:p-20 md:p-10 2xl:p-20">
+        <div className="w-full md:w-[33.4vw] h-full bg-white flex flex-col sm:flex-row md:flex-col xl:flex-row gap-y-5 items-center justify-around md:justify-center xl:justify-around p-10 sm:p-20 md:p-10 2xl:p-20">
           {/* metrics */}
           <div className="flex flex-col items-center">
-            <span className="text-5xl font-bold text-violet-900">2</span>
-            <span className="font-bold">PROYECTOS</span>
+            <span className="text-5xl font-bold text-violet-900">5</span>
+            <span className="text-sm lg:text-md font-bold">PROYECTOS</span>
           </div>
           <div className="flex flex-col items-center">
             <span className="text-5xl font-bold text-violet-900">2</span>
-            <span className="font-bold">SITIOS WEB</span>
+            <span className="text-sm lg:text-md font-bold">SITIOS WEB</span>
           </div>
           <div className="flex flex-col items-center">
-            <span className="text-5xl font-bold flex text-violet-900">2</span>
-            <span className="font-bold">CLIENTES</span>
+            <span className="text-5xl font-bold flex text-violet-900">4</span>
+            <span className="text-sm lg:text-md font-bold">CLIENTES</span>
           </div>
         </div>
       </div>

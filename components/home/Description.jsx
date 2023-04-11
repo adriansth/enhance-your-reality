@@ -21,7 +21,7 @@ export default function Description() {
             </p>
          </div>
          {/* image */}
-         <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className='object-cover xl:w-[50%] h-full rounded-lg shadow-lg' />
+         <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className='object-cover xl:w-[50%] w-full h-[300px] rounded-lg shadow-lg' />
       </div>
    );
 }

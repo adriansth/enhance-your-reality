@@ -10,7 +10,7 @@ export const services = [
      {
           id: 2,
           name: 'Marketing Digital',
-          link: 'marketing',
+          link: '',
           available: false,
           description: 'Estrategia, creación y publicación de contenido en redes sociales para potenciar tus ventas y presencia online. Manejamos tus redes sociales y publicamos contenido enriquecedor para hacer crecer tu negocio de manera orgánica.',
           img: 'https://images.unsplash.com/photo-1607703703520-bb638e84caf2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
@@ -18,7 +18,7 @@ export const services = [
      {
           id: 3,
           name: 'Identidad de Marca',
-          link: 'identity',
+          link: '',
           available: false,
           description: 'Creamos tu logo y los grupos de estilos necesarios para tener una identidad de marca atractiva y profesional.',
           img: 'https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',

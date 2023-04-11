@@ -20,27 +20,27 @@ export default function PortfolioClients() {
      return(
           <div className='bg-white w-screen py-20'>
                {/* filters */}
-               <div className='w-full text-sm font-light flex justify-center gap-x-10 text-gray-700'>
+               <div className='w-full text-lg md:text-sm font-semibold flex flex-col gap-y-3 md:flex-row items-center justify-center gap-x-5 text-gray-700'>
                     <span 
-                         className={`hover:text-sky-400 cursor-pointer transition-colors ${optionSelected === 'all' ? 'text-sky-400' : ''}`}
+                         className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'all' ? 'text-sky-400' : ''}`}
                          onClick={() => setOptionSelected('all')}
                     >
                               Mostrar todo
                     </span>
                     <span 
-                         className={`hover:text-sky-400 cursor-pointer transition-colors ${optionSelected === 'web' ? 'text-sky-400' : ''}`}
+                         className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'web' ? 'text-sky-400' : ''}`}
                          onClick={() => setOptionSelected('web')}
                     >
                               Web
                     </span>
                     <span 
-                         className={`hover:text-sky-400 cursor-pointer transition-colors ${optionSelected === 'masrketing' ? 'text-sky-400' : ''}`}
+                         className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'marketing' ? 'text-sky-400' : ''}`}
                          onClick={() => setOptionSelected('marketing')}
                     >
                               Marketing
                     </span>
                     <span 
-                         className={`hover:text-sky-400 cursor-pointer transition-colors ${optionSelected === 'identity' ? 'text-sky-400' : ''}`}
+                         className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'identity' ? 'text-sky-400' : ''}`}
                          onClick={() => setOptionSelected('identity')}
                     >
                               Identidad
@@ -49,7 +49,7 @@ export default function PortfolioClients() {
                {/* all content */}
                {
                     optionSelected === 'all' && (
-                         <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
+                         <div className='rounded-lg w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    clients.map((item) => (
                                         <Link href={`/portfolio/${item.name}`} key={item.id}>
@@ -63,7 +63,7 @@ export default function PortfolioClients() {
                {/* web content */}
                {
                     optionSelected === 'web' && (
-                         <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
+                         <div className='rounded-lg w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    web.map((item) => (
                                         <Link href={`/portfolio/${item.name}`} key={item.id}>
@@ -77,7 +77,7 @@ export default function PortfolioClients() {
                {/* marketing content */}
                {
                     optionSelected === 'marketing' && (
-                         <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
+                         <div className='rounded-lg w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    marketing.map((item) => (
                                         <Link href={`/portfolio/${item.name}`} key={item.id}>
@@ -91,7 +91,7 @@ export default function PortfolioClients() {
                {/* identity content */}
                {
                     optionSelected === 'identity' && (
-                         <div className='w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
+                         <div className='rounded-lg w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
                                    identity.map((item) => (
                                         <Link href={`/portfolio/${item.name}`} key={item.id}>

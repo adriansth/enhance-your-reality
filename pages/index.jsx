@@ -15,6 +15,7 @@ export default function Home() {
       <Head>
         <title>Enhance Your Reality | Qüu</title>
         <meta name="description" content="Enhance Your Reality | Qüu" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>

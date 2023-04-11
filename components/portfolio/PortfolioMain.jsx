@@ -9,8 +9,8 @@ export default function PortfolioMain() {
                     <MainBackground />
                </div>
                {/* content */}
-               <div className='flex flex-col gap-y-5'>
-                    <h1 className='w-full text-7xl font-semibold text-white'>Nuestro Portafolio</h1>
+               <div className='w-full h-full flex flex-col items-center justify-center gap-y-5'>
+                    <h1 className='text-7xl font-semibold text-white pb-10'>Nuestro Portafolio</h1>
                </div>
           </div>
      );

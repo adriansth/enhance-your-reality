@@ -1,5 +1,7 @@
 // icons
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
+// next 
+import Link from 'next/link';
 
 export default function AboutWidgets() {
   return (
@@ -19,10 +21,10 @@ export default function AboutWidgets() {
             marketing digital y desarrollo web para que nuestros clientes no
             tengan que preocuparse por lo difícil que puede llegar a ser.
           </p>
-          <button className="text-sm xl:text-lg bg-violet-900 px-5 xl:px-10 py-3 xl:py-5 font-bold text-white flex items-center gap-x-2 hover:bg-sky-300 shadow-lg rounded-lg">
+          <Link href='/portfolio' className="text-sm xl:text-lg bg-violet-900 px-5 xl:px-10 py-3 xl:py-5 font-bold text-white flex items-center gap-x-2 hover:bg-sky-300 shadow-lg rounded-lg">
             <span>Ver más</span>
             <ChevronRightIcon className="w-3 xl:w-5" />
-          </button>
+          </Link>
         </div>
         {/* widget 3 */}
         <div className="w-full md:w-[33.4vw] h-full bg-white flex flex-row md:flex-col xl:flex-row gap-y-5 items-center justify-around md:justify-center xl:justify-around p-10 sm:p-20 md:p-10 2xl:p-20">
@@ -91,10 +93,10 @@ export default function AboutWidgets() {
             Mantenemos nuestras redes sociales actualizadas con avances, diseños
             y más. ¡Contáctanos!
           </p>
-          <button className="text-sm xl:text-lg bg-violet-900 px-5 xl:px-10 py-3 xl:py-5 font-bold text-white flex items-center gap-x-2 hover:bg-sky-300 shadow-lg rounded-lg">
+          <Link href='/contact' className="text-sm xl:text-lg bg-violet-900 px-5 xl:px-10 py-3 xl:py-5 font-bold text-white flex items-center gap-x-2 hover:bg-sky-300 shadow-lg rounded-lg">
             <span>Ver más</span>
             <ChevronRightIcon className="w-3 xl:w-5" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>

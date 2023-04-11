@@ -4,6 +4,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import contactImg from '../../media/about-contact.jpg';
 // nextjs
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AboutContactWidgets() {
      return(
@@ -16,10 +17,10 @@ export default function AboutContactWidgets() {
                <div className='w-full md:w-[33.3vw] h-full bg-slate-100 flex flex-col gap-y-5 items-start justify-center p-10 sm:p-20 md:p-10 xl:p-20'>
                          <h2 className='text-3xl xl:text-5xl font-bold w-full'>VEÁMONOS</h2>
                          <p className='text-gray-500 font-light text-sm xl:text-md'>Contáctanos para conversar acerca de tus necesidades y cómo podemos ayudarte a crecer tu negocio.</p>
-                         <button className='text-sm xl:text-lg bg-violet-900 px-5 xl:px-10 py-3 xl:py-5 font-bold text-white flex items-center gap-x-2 hover:bg-sky-300 shadow-lg rounded-lg'>
+                         <Link href='/contact' className='text-sm xl:text-lg bg-violet-900 px-5 xl:px-10 py-3 xl:py-5 font-bold text-white flex items-center gap-x-2 hover:bg-sky-300 shadow-lg rounded-lg'>
                               <span>Salúdanos</span>
                               <ChevronRightIcon className='w-3 xl:w-5' />
-                         </button>
+                         </Link>
                     </div>
                {/* widget 3 */}
                <div className='w-full md:w-[33.4vw] h-full'>

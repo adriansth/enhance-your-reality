@@ -10,8 +10,14 @@ import linkedin from '../../media/linkedin.png';
 import facebook from '../../media/facebook.png';
 // hooks 
 import { useState, useEffect } from 'react'; 
+// redux 
+import { useDispatch, useSelector } from 'react-redux';
 
 export default function Contact() {
+
+   const dispatch = useDispatch();
+   const submitForm = () => dispatch({ type: 'SUBMITTED' });
+   const submitted = useSelector(state => state.formSubmitted);
 
    const [ name, setName ] = useState('');
    const [ email, setEmail ] = useState('');
@@ -51,7 +57,7 @@ export default function Contact() {
          })
          .then(response => response.json())
          .then(() => console.log(validatePhoneNumber(phone)))
-         .then(() => alert('¡Envío exitoso!'))
+         .then(() => submitForm())
          .catch(error => console.log(error));
       } else {
          alert('El número telefónico no es válido.');
@@ -112,10 +118,13 @@ export default function Contact() {
                </textarea>
             </div>
             <div>
-               <button type='submit' className='bg-red-500 w-full py-5 flex justify-center items-center gap-x-5 shadow-lg hover:bg-sky-400 transition-colors rounded-lg'>
-                  <span className='text-white font-semibold'>Enviar</span>
-                  <ChevronRightIcon className='w-5 text-white' />
-               </button>
+               {
+                  submitted ? <span className='text-green-500'>¡Mensaje enviado! Pronto nos pondremos en contacto contigo.</span> :
+                  <button type='submit' className='bg-red-500 w-full py-5 flex justify-center items-center gap-x-5 shadow-lg hover:bg-sky-400 transition-colors rounded-lg'>
+                     <span className='text-white font-semibold'>Enviar</span>
+                     <ChevronRightIcon className='w-5 text-white' />
+                  </button>
+               }
             </div>
          </form>
          {/* contact info */}

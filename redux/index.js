@@ -1,6 +1,7 @@
 // initial state
 const INITIAL_STATE = {
    hamburgerOpened: false,
+   formSubmited: false,
 };
 
 // state actions
@@ -17,10 +18,15 @@ const reducer = (state = INITIAL_STATE, action) => {
             ...state,
             hamburgerOpened: false,
          }
+      // form submited
+      case "SUBMITTED":
+         return {
+            ...state, 
+            formSubmitted: true,
+         } 
       default: 
          return {
             ...state,
-            hamburgerOpened: false,
          }
    }
 }

@@ -47,6 +47,11 @@ export default function Navbar() {
                               </Link>
                          </span>
                          <span className='cursor-pointer hover:text-sky-300'>
+                              <Link href='/blog'>
+                                   Blog
+                              </Link>
+                         </span>
+                         <span className='cursor-pointer hover:text-sky-300'>
                               <Link href='/contact'>
                                    Contacto
                               </Link>

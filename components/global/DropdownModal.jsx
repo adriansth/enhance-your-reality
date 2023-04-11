@@ -28,6 +28,9 @@ export default function DropdownModal() {
             <Link href='/portfolio'>Portafolio</Link>
          </span>
          <span className='hover:text-sky-300'>
+            <Link href='/blog'>Blog</Link>
+         </span>
+         <span className='hover:text-sky-300'>
             <Link href='/contact'>Contacto</Link>
          </span>
       </div>

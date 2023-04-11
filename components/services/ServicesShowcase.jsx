@@ -19,7 +19,7 @@ export default function ServicesShowcase() {
                </p>
                <div className='w-full flex flex-col gap-y-5 items-center'>
                     {/* services card */}
-                    <div className='w-[90%] flex flex-col mt-5 lg:mt-0 gap-y-10 lg:flex-row justify-center gap-x-5'>
+                    <div className='w-[90%] flex flex-col mt-5 lg:mt-0 gap-y-10 lg:flex-row justify-center gap-x-5 pb-5'>
                          {
                               services.map((service) => (
                                    <ServiceDescriptionCard key={service.id} name={service.name} description={service.description} available={service.available} image={service.img} link={service.link} />
@@ -27,17 +27,20 @@ export default function ServicesShowcase() {
                          }
                     </div>
                     {/* additional services */}
-                    <Link href='/' className='w-[90%] items-center border rounded-lg shadow-lg py-5 px-5 hover:scale-105 hover:bg-slate-100 transition-all'>
+                    <div className='w-[90%] items-center border rounded-lg shadow-lg py-5 px-5 hover:scale-105 hover:bg-slate-100 transition-all relative'>
                          <div className='flex flex-col gap-y-3'>
                               <div className='flex justify-between'>
                                    <h3 className='text-lg md:text-2xl font-semibold'>Servicios Especializados</h3>
                                    <ChevronRightIcon className='w-5' />
                               </div>
-                              <p className='font-light text-gray-500 text-xs md:text-sm text-justify'>
+                              <p className='font-light text-gray-500 text-xs md:text-sm text-justify pb-5'>
                                    Contamos con servicios especializados de boletera para tus eventos e inteligencia artificial.
                               </p>
                          </div>
-                    </Link>
+                         <div className='bg-orange-500 w-full py-1 text-white text-xs font-semibold absolute bottom-0 left-0 rounded-b-lg flex justify-center'>
+                              <span>Próximamente</span>
+                         </div>
+                    </div>
                </div>
           </div>
      );

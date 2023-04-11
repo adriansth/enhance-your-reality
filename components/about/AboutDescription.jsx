@@ -1,6 +1,6 @@
 export default function AboutDescription() {
    return(
-      <div className='w-screen py-20 px-10 md:px-20 flex flex-col gap-y-5 text-justify'>
+      <div className='bg-white w-screen py-20 px-10 md:px-20 flex flex-col gap-y-5 text-justify'>
          <p className='text-gray-500 font-light text-xl'>
             Somos una <span className='text-violet-900 font-semibold'>empresa de desarrollo tecnológico y transformación digital</span>; creemos en la importancia de la creatividad y la innovación para crear soluciones tecnológicas efectivas para nuestros clientes.
          </p>

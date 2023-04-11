@@ -1,12 +1,12 @@
-// nextjs
-import Image from 'next/image';
-// media
-import aboutImg from '../../media/about-second.jpg';
+// components 
+import MainBackground from "../home/MainBackground";
 
 export default function AboutImage() {
      return(
-          <div className='w-screen h-[60vh]'>
-               <Image src={aboutImg} className='w-full h-full object-cover' />
+          <div className='w-screen h-[60vh] relative'>
+               <div className='w-full h-full absolute z-[-10]'>
+                    <MainBackground />
+               </div>
           </div>
      );
 }

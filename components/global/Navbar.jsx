@@ -18,7 +18,7 @@ export default function Navbar() {
      const modal = useSelector(state => state.hamburgerOpened);
 
      return(
-          <div className='h-[10vh] w-screen z-10'>
+          <div className='h-[10vh] w-screen z-[1000]'>
                <div className='flex justify-between p-10 items-center'>
                     {/* logo */}
                     <div>

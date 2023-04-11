@@ -1,6 +1,6 @@
 export default function Description() {
    return(
-      <div className='w-screen bg-slate-100 py-20 px-10 md:px-20 flex flex-col gap-y-20 xl:flex-row justify-between items-center'>
+      <div className='bg-slate-100 w-screen py-20 px-10 md:px-20 flex flex-col gap-y-20 xl:flex-row justify-between items-center'>
          {/* info */}
          <div className='flex flex-col gap-y-5 xl:w-[40%]'>
             <h2 className='text-5xl font-semibold pb-5 text-violet-900 border-b border-gray-300'>Bienvenido a Qüu [Enhance Your Reality]</h2>

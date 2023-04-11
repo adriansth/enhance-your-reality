@@ -11,7 +11,7 @@ import facebook from '../../media/facebook.png';
 
 export default function Contact() {
    return(
-      <div className='w-screen py-20 px-10 md:px-20 flex flex-col md:flex-row justify-between'>
+      <div className='bg-white w-screen py-20 px-10 md:px-20 flex flex-col md:flex-row justify-between'>
          {/* contact form */}
          <form className='w-full md:w-[45%] pb-20 md:pb-0'>
             <div className='flex flex-col sm:flex-row gap-y-5'>

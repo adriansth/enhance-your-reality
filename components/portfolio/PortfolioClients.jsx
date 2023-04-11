@@ -18,7 +18,7 @@ export default function PortfolioClients() {
      const identity = clients.filter((item) => item.type === 'identity');
 
      return(
-          <div className='w-screen py-20'>
+          <div className='bg-white w-screen py-20'>
                {/* filters */}
                <div className='w-full text-sm font-light flex justify-center gap-x-10 text-gray-700'>
                     <span 

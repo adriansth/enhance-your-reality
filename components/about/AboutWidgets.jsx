@@ -7,7 +7,7 @@ export default function AboutWidgets() {
       {/* row 1 */}
       <div className="w-full md:h-[50vh] flex flex-col md:flex-row">
         {/* widget 1 */}
-        <div className="w-full md:w-[33.3vw] h-full bg-violet-900 flex items-center justify-center p-10 sm:p-20 md:p-10 xl:p-20">
+        <div className="w-full md:w-[33.3vw] h-full bg-violet-500 flex items-center justify-center p-10 sm:p-20 md:p-10 xl:p-20">
           <h2 className="text-white font-bold text-2xl xl:text-6xl">TRABAJO</h2>
         </div>
         {/* widget 2 */}

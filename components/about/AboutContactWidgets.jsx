@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function AboutContactWidgets() {
      return(
-          <div className='w-screen md:h-[50vh] flex flex-col md:flex-row'>
+          <div className='bg-white w-screen md:h-[50vh] flex flex-col md:flex-row'>
                {/* widget 1 */}
                <div className='w-full md:w-[33.3vw] h-full bg-sky-300 flex items-center justify-center p-10 sm:p-20 md:p-10 xl:p-20'>
                     <h2 className='text-white font-bold text-3xl xl:text-6xl'>¡SALÚDANOS!</h2>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function ClientDescriptionInfo({ name, date, images, title, description, social, url }) {
      return(
-          <div className='w-screen flex flex-col-reverse xl:flex-row items-center pt-20 xl:pt-0'>
+          <div className='bg-white w-screen flex flex-col-reverse xl:flex-row items-center pt-20 xl:pt-0'>
                {/* images */}
                <div className='w-full lg:w-[65%] flex flex-col lg:flex-row lg:flex-wrap lg:py-20 pt-20 pb-0 justify-center items-center'>
                     {

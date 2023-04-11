@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 // components 
 import Navbar from '../../components/global/Navbar';
 import NavbarDynamic from '../../components/global/NavbarDynamic';
+import MainBackground from '../../components/home/MainBackground';
 import ClientDescriptionMain from '../../components/portfolio/ClientDescriptionMain';
 import ClientDescriptionInfo from '../../components/portfolio/ClientDescriptionInfo';
 import Footer from '../../components/global/Footer';
@@ -19,16 +20,19 @@ export default function ClientDescriptionPage() {
      return(
           <>
                <Head>
-                    <title>{client?.name} | Enhance Your Reality | Qüu</title>
+                    <title>Enhance Your Reality | Qüu</title>
                     <meta name='description' content='Enhance Your Reality | Qüu' />
                     <link rel="stylesheet" href="/favicon.ico" />
                </Head>
-               <main>
+               <main className='relative'>
                     <div className='relative'>
                          <div className='absolute'>
                               <Navbar />
                               <NavbarDynamic />
                          </div>
+                    </div>
+                    <div className='absolute z-[-10]'>
+                         <MainBackground />
                     </div>
                     {
                          clients.filter((client) => client?.name === name).map((item) => (

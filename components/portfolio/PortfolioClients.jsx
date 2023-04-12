@@ -14,8 +14,8 @@ export default function PortfolioClients() {
      console.log(clients);
 
      const web = clients.filter((item) => item.type === 'web');
-     const marketing = clients.filter((item) => item.type === 'marketing');
      const identity = clients.filter((item) => item.type === 'identity');
+     const apps = clients.filter((item) => item.type === 'apps');
 
      return(
           <div className='bg-white w-screen py-20'>
@@ -25,7 +25,7 @@ export default function PortfolioClients() {
                          className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'all' ? 'text-sky-400' : ''}`}
                          onClick={() => setOptionSelected('all')}
                     >
-                              Mostrar todo
+                              Todos los proyectos
                     </span>
                     <span 
                          className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'web' ? 'text-sky-400' : ''}`}
@@ -34,16 +34,16 @@ export default function PortfolioClients() {
                               Web
                     </span>
                     <span 
-                         className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'marketing' ? 'text-sky-400' : ''}`}
-                         onClick={() => setOptionSelected('marketing')}
-                    >
-                              Marketing
-                    </span>
-                    <span 
                          className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'identity' ? 'text-sky-400' : ''}`}
                          onClick={() => setOptionSelected('identity')}
                     >
-                              Identidad
+                              Identidad corporativa
+                    </span>
+                    <span 
+                         className={`hover:text-sky-400 underline cursor-pointer transition-colors ${optionSelected === 'apps' ? 'text-sky-400' : ''}`}
+                         onClick={() => setOptionSelected('apps')}
+                    >
+                              Apps
                     </span>
                </div>
                {/* all content */}
@@ -74,12 +74,12 @@ export default function PortfolioClients() {
                          </div>
                     )
                }
-               {/* marketing content */}
+               {/* identity content */}
                {
-                    optionSelected === 'marketing' && (
+                    optionSelected === 'identity' && (
                          <div className='rounded-lg w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
-                                   marketing.map((item) => (
+                                   identity.map((item) => (
                                         <Link href={`/portfolio/${item.name}`} key={item.id}>
                                              <ServiceCard service={item} />
                                         </Link>
@@ -88,12 +88,12 @@ export default function PortfolioClients() {
                          </div>
                     )
                }
-               {/* identity content */}
+               {/* apps */}
                {
-                    optionSelected === 'identity' && (
+                    optionSelected === 'apps' && (
                          <div className='rounded-lg w-screen flex flex-wrap justify-center gap-x-5 gap-y-5 pt-20 px-20'>
                               {
-                                   identity.map((item) => (
+                                   apps.map((item) => (
                                         <Link href={`/portfolio/${item.name}`} key={item.id}>
                                              <ServiceCard service={item} />
                                         </Link>

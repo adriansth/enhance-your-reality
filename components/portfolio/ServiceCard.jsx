@@ -8,7 +8,7 @@ export default function ServiceCard({ service }) {
      const [hovered, setHovered] = useState(false);
 
      return(
-               <div className='bg-slate-100 w-[250px] sm:w-[450px] md:w-[500px] h-[250px] sm:h-[450px] md:h-[500px] rounded-lg'>
+               <div className='bg-slate-100 w-[250px] sm:w-[450px] md:w-[500px] h-[250px] sm:h-[450px] md:h-[500px] rounded-lg shadow-lg border'>
                     <div className='w-full h-full flex justify-center items-center relative cursor-pointer' onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                          <div className='w-full h-full flex justify-center items-center'>
                               <img src={service.img} alt="" className='w-full object-cover' />

@@ -20,30 +20,47 @@ export default function AppsShowcase() {
                      <li>Aplicamos los cambios necesarios dentro del periodo establecido de servicio.</li>
                      <li>Implementamos tu nueva funcionalidad de automatización dentro de tu empresa.</li>
                   </ol>
-                  <span className='text-sm font-semibold text-white bg-violet-900 w-[200px] text-center rounded-lg py-2'>Desde $20,000 MXN</span>
+                  <span className='text-sm font-semibold text-white bg-violet-900 w-[200px] text-center rounded-lg py-2'>Contacta para cotizar</span>
                </div>
-               <img src="https://images.pexels.com/photos/8728286/pexels-photo-8728286.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" className='pt-10 lg:pt-0 w-full lg:w-[40%] object-cover h-full' />
+               <img src="https://elements-cover-images-0.imgix.net/28489465-e00a-4346-a52d-9c2112ddf947?auto=compress%2Cformat&fit=max&w=1170&s=456a61271edfe82c1ccebc4f03dd8a86" alt="" className='pt-10 lg:pt-0 w-full lg:w-[40%] object-cover h-full shadow-lg rounded-lg' />
             </div>
-            {/* web app */ }
-            <div className='flex flex-col lg:flex-row items-center'>
-               <div className='flex flex-col gap-y-5 lg:w-[60%] lg:pr-20 text-justify'>
-                  <h2 className='text-2xl font-semibold text-violet-900'>Web App</h2>
-                  <p className='text-sm md:text-xl font-light text-gray-500'>
-                     Crea tu aplicación en la web, con las funcionalidades a tu medida. Crea un proyecto de software para tu empresa. Perfecto para negocios con el propósito de generar una herramienta de tecnología.
+            {/* web app */}
+            <div className="flex flex-col lg:flex-row items-center">
+               <div className="flex flex-col gap-y-5 lg:w-[60%] lg:pr-20 text-justify">
+                  <h2 className="text-2xl font-semibold text-violet-900">Web App</h2>
+                  <p className="text-sm md:text-xl font-light text-gray-500">
+                  Ofrecemos desarrollo web personalizado, es decir, aplicaciones web
+                  con alguna funcionalidad que se requiera. Nuestras herramientas
+                  son modernas y eficientes, estas permiten un desarrollo ágil y de
+                  calidad para cualquier aplicación web que requieras. Para obtener
+                  una cotización contáctanos. La metodología que seguimos es la
+                  siguiente:
                   </p>
-                  <ol className='list-decimal text-sm md:text-xl font-light text-gray-500 pl-5'>
-                     <li>Especificamos las diferentes secciones y soluciones que tendrá tu aplicación web.</li>
-                     <li>Redactamos contigo la información y el texto dentro de tu aplicación web, además de plantear las funcionalidades.</li>
-                     <li>Programamos tu aplicación web.</li>
-                     <li>Contruimos funcionalidades.</li>
-                     <li>Aplicamos los cambios necesarios dentro del periodo de servicio.</li>
-                     <li>¡Lanzamos tu aplicación web a la red!</li>
+                  <ol className="list-decimal text-sm md:text-xl font-light text-gray-500 pl-5">
+                  <li>Especificamos las funcionalidades que se requiren.</li>
+                  <li>
+                     Listamos las tareas por hacer con base en las funcionalidades.
+                  </li>
+                  <li>
+                     Realizamos una cotización con base en las tareas a realizar.
+                  </li>
+                  <li>Programamos la aplicación web. Incluimos SEO.</li>
+                  <li>
+                     Aplicamos los cambios necesarios dentro del periodo establecido
+                     del servicio.
+                  </li>
+                  <li>¡Lanzamos tu aplicación web a la red!</li>
                   </ol>
-                  <span className='text-sm font-semibold text-white bg-violet-900 w-[200px] text-center rounded-lg py-2'>
-                     Contacta para cotizar
+                  <span className="text-sm font-semibold text-white bg-violet-900 w-[200px] text-center rounded-lg py-2">
+                  Contacta para cotizar
                   </span>
                </div>
-               <img src="https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className='w-full lg:w-[40%] pt-10 lg:pt-0 object-cover h-full' />
+               {/* image */}
+               <img
+                  src="https://elements-cover-images-0.imgix.net/488f3792-02f1-40c1-8f45-e528f405b475?auto=compress%2Cformat&fit=max&w=1170&s=bf1fab12220ea9d20756694c719ef8c7"
+                  alt=""
+                  className="w-full lg:w-[40%] pt-10 lg:pt-0 object-cover h-full shadow-lg rounded-lg"
+               />
             </div>
             {/* mobile app */}
             <div className='flex flex-col lg:flex-row items-center'>
@@ -64,7 +81,7 @@ export default function AppsShowcase() {
                      Contacta para cotizar
                   </span>
                </div>
-               <img src="https://images.pexels.com/photos/4195335/pexels-photo-4195335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className='w-full lg:w-[40%] pt-10 lg:pt-0 object-cover h-full' />
+               <img src="https://elements-cover-images-0.imgix.net/48b07580-6a61-44cc-922b-7050b9bd2985?auto=compress%2Cformat&fit=max&w=1170&s=b1d48b41cff4b6040de57f850d7598eb" alt="" className='w-full lg:w-[40%] pt-10 lg:pt-0 object-cover h-full rounded-lg shadow-lg' />
             </div>
             {/* erp / crm */}
             <div className='flex flex-col lg:flex-row items-center'>
@@ -83,7 +100,7 @@ export default function AppsShowcase() {
                      Contacta para cotizar
                   </span>
                </div>
-               <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className='w-full lg:w-[40%] pt-10 lg:pt-0 object-cover h-full' />
+               <img src="https://elements-cover-images-0.imgix.net/d84f278b-ceec-4da4-94ac-fb6b1e5d0e82?auto=compress%2Cformat&fit=max&w=1170&s=e349c419f6b1d2a48cd2f359d3786f16" alt="" className='w-full lg:w-[40%] pt-10 lg:pt-0 object-cover h-full rounded-lg shadow-lg' />
             </div>
          </div>
       </div>

@@ -3,9 +3,11 @@ import ServiceDescriptionCard from "./ServiceDescriptionCard";
 // icons 
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
 // data 
-import { services } from '../../data/services'; 
+import { services } from '../../data/services';
+// assets
+import meboLogo from '../../media/MEBO-LOGO.png';
 // next 
-import Link from 'next/link';
+import Image from 'next/image'; 
 
 export default function ServicesShowcase() {
      return(
@@ -33,9 +35,14 @@ export default function ServicesShowcase() {
                                    <h3 className='text-lg md:text-2xl font-semibold'>Servicios Especializados</h3>
                                    <ChevronRightIcon className='w-5' />
                               </div>
-                              <p className='font-light text-gray-500 text-xs md:text-sm text-justify pb-5'>
-                                   Contamos con servicios especializados de boletera para tus eventos e inteligencia artificial.
-                              </p>
+                              <div className='flex flex-col lg:flex-row justify-between lg:items-center'>
+                                   <p className='w-full lg:w-[60%] font-light text-gray-500 text-xs md:text-sm text-justify pb-5'>
+                                        Nuestro software de boletera y control de entrada permite a los organizadores de eventos publicar y gestionar fácilmente sus eventos. Con un proceso de compra en línea fácil de usar y un sistema de control de entrada integrado, nuestro software hace que la organización de eventos sea más eficiente. Contáctanos para obtener más información.
+                                   </p>
+                                   <div className='flex justify-center'>
+                                        <Image src={meboLogo} width={150} height={150} />
+                                   </div>
+                              </div>
                          </div>
                          <div className='bg-orange-500 w-full py-1 text-white text-xs font-semibold absolute bottom-0 left-0 rounded-b-lg flex justify-center'>
                               <span>Próximamente</span>

@@ -139,8 +139,12 @@ export default function Contact() {
                   <Link href='https://www.instagram.com/enhanceyoureality/' target='_blank'>
                      <Image src={instagram} alt="" className='hover:opacity-50 cursor-pointer' />
                   </Link>
-                  <Image src={linkedin} alt="" />
-                  <Image src={twitter} alt="" />
+                  <Link href='https://linkedin.com/company/enhance-your-reality-%C2%A0q%C3%BCu' target='_blank'>
+                     <Image src={linkedin} alt="" className='hover:opacity-50 cursor-pointer' />
+                  </Link>
+                  <Link href='https://twitter.com/enhanceureality' target='_blank'>
+                     <Image src={twitter} alt="" className='hover:opacity-50 cursor-pointer' />
+                  </Link>
                   <Link href='https://www.facebook.com/enhanceyoureality'target='_blank'>
                      <Image src={facebook} alt="" className='hover:opacity-50 cursor-pointer' />
                   </Link>

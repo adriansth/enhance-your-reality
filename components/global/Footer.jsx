@@ -54,10 +54,14 @@ export default function Footer() {
                               </Link>
                          </div>
                          <div className='hover:opacity-50 cursor-pointer w-8'>
-                              <Image src={linkedin} className='w-full'></Image>
+                              <Link href='https://linkedin.com/company/enhance-your-reality-%C2%A0q%C3%BCu' target='_blank'>
+                                   <Image src={linkedin} className='w-full'></Image>
+                              </Link>
                          </div>
                          <div className='hover:opacity-50 cursor-pointer w-8'>
-                              <Image src={twitter} className='w-full'></Image>
+                              <Link href='https://twitter.com/enhanceureality' target='_blank'>
+                                   <Image src={twitter} className='w-full'></Image>
+                              </Link>
                          </div>
                     </div>
                </div>

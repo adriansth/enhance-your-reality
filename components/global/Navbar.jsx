@@ -28,30 +28,30 @@ export default function Navbar() {
                     </div>
                     {/* navs */}
                     <div className='hidden md:flex text-md font-bold gap-x-10 text-white items-center'>
-                         <span className='cursor-pointer hover:text-sky-300'>
+                         <span className='cursor-pointer hover:text-sky-300 transition-colors'>
                               <Link href='/'>Home</Link>
                          </span>
-                         <span className='cursor-pointer hover:text-sky-300'>
+                         <span className='cursor-pointer hover:text-sky-300 transition-colors'>
                               <Link href='/about'>
                                    Nosotros
                               </Link>
                          </span>
-                         <span className='cursor-pointer hover:text-sky-300'>
+                         <span className='cursor-pointer hover:text-sky-300 transition-colors'>
                               <Link href='/services'>
                                    Soluciones
                               </Link>
                          </span>
-                         <span className='cursor-pointer hover:text-sky-300'>
+                         <span className='cursor-pointer hover:text-sky-300 transition-colors'>
                               <Link href='/portfolio'>
                                    Portafolio
                               </Link>
                          </span>
-                         <span className='cursor-pointer hover:text-sky-300'>
+                         <span className='cursor-pointer hover:text-sky-300 transition-colors'>
                               <Link href='/blog'>
                                    Blog
                               </Link>
                          </span>
-                         <span className='cursor-pointer hover:text-sky-300'>
+                         <span className='cursor-pointer hover:text-sky-300 transition-colors'>
                               <Link href='/contact'>
                                    Contacto
                               </Link>

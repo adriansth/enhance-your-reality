@@ -127,7 +127,7 @@ export default function ContactForm() {
         <div>
           {
             submitted ? <span className='text-green-500'>¡Mensaje enviado! Pronto nos pondremos en contacto contigo.</span> :
-            <button type='submit' className="bg-red-500 w-full py-5 flex justify-center items-center gap-x-5 shadow-lg hover:bg-sky-400 mt-5 transition-colors">
+            <button type='submit' className="rounded-lg bg-red-500 w-full py-5 flex justify-center items-center gap-x-5 shadow-lg hover:bg-sky-400 mt-5 transition-colors">
               <span className="text-white font-semibold">Enviar</span>
               <ChevronRightIcon className="w-5 text-white" />
           </button>

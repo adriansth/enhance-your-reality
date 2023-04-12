@@ -19,7 +19,7 @@ export default function ClientDescriptionInfo({ name, date, images, title, descr
                     <h1 className='text-3xl lg:text-5xl font-semibold'>{title}</h1>
                     <p className='text-sm lg:text-md font-light text-gray-700 text-justify'>{description}</p>
                     <Link href={url} target='_blank'>
-                         <button className='bg-violet-900 text-white font-semibold px-5 xl:px-10 py-5 w-[50%] flex items-center justify-center gap-x-3 hover:bg-sky-300 cursor-pointer shadow-lg'>
+                         <button className='transition-colors rounded-lg bg-violet-900 text-white font-semibold px-5 xl:px-10 py-5 w-[50%] flex items-center justify-center gap-x-3 hover:bg-sky-300 cursor-pointer shadow-lg'>
                               <span className='text-xs xl:text-md'>Ver más</span>
                               <ChevronRightIcon className='w-3 xl:w-5' />
                          </button>

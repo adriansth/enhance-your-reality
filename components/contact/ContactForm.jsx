@@ -76,7 +76,7 @@ export default function ContactForm() {
           <span>
             contacto@enhanceyoureality.com
           </span>
-          <span className='font-light text-black'>[Si, con una "r"]</span>
+          <span className='font-light text-black'>[Si, con una r]</span>
           </div>
           <div className='text-xl font-semibold text-violet-900 flex gap-x-2 items-center'>
             <Image src={whatsapp} className='w-5 h-5 object-cover' />

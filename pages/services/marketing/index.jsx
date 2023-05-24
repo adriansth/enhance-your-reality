@@ -3,6 +3,8 @@ import Head from 'next/head';
 // components
 import Navbar from '../../../components/global/Navbar';
 import NavbarDynamic from '../../../components/global/NavbarDynamic';
+import MarketingMain from '../../../components/services/marketing/MarketingMain';
+import MarketingDescription from '../../../components/services/marketing/MarketingDescription';
 import Footer from '../../../components/global/Footer';
 import Copyright from '../../../components/global/Copyright';
 
@@ -21,6 +23,8 @@ export default function MarketingPage() {
                               <NavbarDynamic />
                          </div>
                     </div>
+                    <MarketingMain />
+                    <MarketingDescription />
                </main>
                <footer>
                     <Footer />

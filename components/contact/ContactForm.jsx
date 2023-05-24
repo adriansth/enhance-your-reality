@@ -1,9 +1,14 @@
 // icons
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
+import { EnvelopeIcon } from '@heroicons/react/24/solid';
 // hooks
 import { useState, useEffect } from 'react';
 // redux 
 import { useDispatch, useSelector } from "react-redux";
+// assets
+import whatsapp from '../../media/whatsapp.png';
+// next
+import Image from 'next/image';
 
 export default function ContactForm() {
 
@@ -63,17 +68,20 @@ export default function ContactForm() {
         <h2 className="text-3xl md:text-5xl font-semibold">Contáctanos</h2>
         <h3 className="text-md9 md:text-lg">¿Qué puedo hacer por ti?</h3>
         <p className="font-light text-gray-700 text-sm">
-          Para más información, dudas y adquisición de alguno de nuestros
-          servicios, utiliza este formulario de contacto. Nosotros nos pondremos
-          en contacto contigo al correo proporcionado y abriremos una
-          conversación con respecto a tus necesidades.
+          ¿Estás buscando mejorar la presencia en línea de tu empresa o negocio? Complete nuestro formulario y un miembro de nuestro equipo se contactará contigo y junto con nuestros expertos lograremos llevar su presencia empresarial al siguiente nivel. ¡Contáctenos ya!
         </p>
-        <div className="flex flex-col">
-          <span className="text-sm font-light">
+        {/* email */}
+        <div className='text-xl font-semibold text-violet-900 flex gap-x-2 items-center'>
+          <EnvelopeIcon className='w-5' />
+          <span>
             contacto@enhanceyoureality.com
           </span>
-          <span className="text-sm font-light">Tel: +52 56 1987 8619</span>
-        </div>
+          <span className='font-light text-black'>[Si, con una 'r']</span>
+          </div>
+          <div className='text-xl font-semibold text-violet-900 flex gap-x-2 items-center'>
+            <Image src={whatsapp} className='w-5 h-5 object-cover' />
+            <span>+52 55 3949 8680</span>
+      </div>
       </div>
       <form onSubmit={handleSubmit} className="w-full md:w-[50%]">
         <div className="flex flex-col sm:flex-row gap-x-5">

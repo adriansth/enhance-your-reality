@@ -13,8 +13,8 @@ export default function MarketingPage() {
      return(
           <>
                <Head>
-                    <title>Marketing Digital | Enhance Your Reality | Qüu</title>
-                    <meta name='description' content='Servicios de marketing digital | Enhance Your Reality | Qüu' />
+                    <title>Marketing Digital | Enhance Your Reality | Qüu</title>
+                    <meta name='description' content='Servicios de marketing digital |   Enhance Your Reality | Qüu' />
                     <link rel="icon" href="/favicon.ico" />
                </Head>
                <main>

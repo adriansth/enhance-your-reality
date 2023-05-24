@@ -23,7 +23,7 @@ export default function Navbar() {
                     {/* logo */}
                     <div>
                          <Link href='/'>
-                              <Image src={logo} alt="logo" width='150' />
+                              <Image src={logo} alt="logo" width='100' />
                          </Link>
                     </div>
                     {/* navs */}

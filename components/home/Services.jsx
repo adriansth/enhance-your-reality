@@ -22,8 +22,8 @@ export default function Services() {
                     {/* text */}
                     <div className='h-[50vh] md:h-[50%] w-full flex flex-col gap-y-5 items-center justify-center p-10'>
                          <h3 className='text-2xl xl:text-4xl font-semibold text-center'>IDENTIDAD CORPORATIVA</h3>
-                         <p className='text-sm xl:text-lg font-light text-gray-500 text-center'>Creamos diseños innovadores y estrategias de marketing para destacar tu marca.</p>
-                         <Link href='/services' className='transition-colors hover:underline flex items-center gap-x-1 hover:text-sky-300'>
+                         <p className='text-sm xl:text-lg font-light text-gray-500 text-center'>Te asesoramos para crear marcas e identidades empresariales únicas y personalizadas que se destaquen en el mercado.</p>
+                         <Link href='/services/identity' className='transition-colors hover:underline flex items-center gap-x-1 hover:text-sky-300'>
                               <span className='font-semibold'>Ver más</span>
                               <ChevronRightIcon className='w-4' />
                          </Link>
@@ -35,8 +35,8 @@ export default function Services() {
                     {/* text */}
                     <div className='h-[50vh] md:h-[50%] w-full flex flex-col gap-y-5 items-center justify-center p-10'>
                          <h3 className='text-2xl xl:text-4xl font-semibold text-center'>DESARROLLO WEB</h3>
-                         <p className='text-sm xl:text-lg font-light text-gray-500 text-center'>Construimos sitios web para tu marca, desde sitios informativos o tiendas en línea.</p>
-                         <Link href='/services' className='transition-colors hover:underline flex items-center gap-x-1 hover:text-red-500'>
+                         <p className='text-sm xl:text-lg font-light text-gray-500 text-center'>Construimos sitios web personalizados para tu marca; desde páginas informativas hasta el desarrollo de tiendas en línea para tus productos.</p>
+                         <Link href='/services/web-development' className='transition-colors hover:underline flex items-center gap-x-1 hover:text-red-500'>
                               <span className='font-semibold'>Ver más</span>
                               <ChevronRightIcon className='w-4' />
                          </Link>

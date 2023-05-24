@@ -54,6 +54,7 @@ export const clients = [
                }
           }
      },
+     /* page has died
      {
           id: 4,
           name: 'GBF',
@@ -69,4 +70,5 @@ export const clients = [
                socialMedia: {},
           }
      }
+     */
 ];

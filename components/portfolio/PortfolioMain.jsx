@@ -1,17 +1,13 @@
-// components 
-import MainBackground from '../../components/home/MainBackground';
+// next
+import Image from 'next/image';
+// assets
+import portfolioMain from '../../media/portfolio-main.webp';
 
-export default function PortfolioMain() {
+export default function PortfolioMain() {
      return(
-          <div className='w-full h-[40vh] pt-32'>
-               {/* background */}
-               <div className='absolute z-[-10]'>
-                    <MainBackground />
-               </div>
-               {/* content */}
-               <div className='w-full h-full flex flex-col items-center justify-center'>
-                    <h1 className='text-center text-2xl md:text-7xl font-semibold text-white pb-10'>Nuestro Portafolio</h1>
-               </div>
+          <div className='w-screen h-[60vh]'>
+               <h1 className='text-4xl sm:text-6xl md:text-8xl font-semibold text-white absolute z-[0] top-[25%] w-full text-center'>Nuestro portafolio</h1>
+               <Image src={portfolioMain} alt="" className='w-full h-full object-cover' />
           </div>
      );
 }

@@ -5,7 +5,7 @@ export default function Description() {
          <div className='flex flex-col gap-y-5 xl:w-[40%]'>
             <h2 className='text-5xl font-semibold pb-5 text-violet-900 border-b border-gray-300'>Bienvenido a Qüu [Enhance Your Reality]</h2>
             <p className='font-light text-gray-500 text-xl text-justify'>
-               Somos una <span className='text-violet-900 font-semibold'>empresa de desarrollo tecnológico y transformación digital</span>; estamos aquí para ayudarte a desarrollar soluciones de tecnología innovadoras y creativas que impulsen tu negocio hacia el éxito.
+               Somos una <span className='text-violet-900 font-semibold'>empresa de desarrollo tecnológico y transformación digital</span>; estamos aquí para ayudarte a desarrollar soluciones de tecnología creativas e innovadoras que impulsen tu negocio hacia el éxito.
             </p>
             <p className='font-light text-gray-500 text-xl text-justify'>
                En un mundo cada vez más apegado a lo digital, es crucial que las empresas tengan una <span className='text-violet-900 font-semibold'>buena presencia en línea</span>, generen comunidades para interactuar con sus clientes y que utilicen las herramientas tecnológicas adecuadamente para <span className='text-violet-900 font-semibold'>mejorar sus procesos y lograr sus objetivos</span>.
@@ -16,7 +16,7 @@ export default function Description() {
             <p className='font-light text-gray-500 text-xl text-justify'>
                Si buscas un equipo apasionado y comprometido para ayudarte a alcanzar tus objetivos empresariales.
             </p>
-            <p className='font-light text-violet-900 font-semibold text-xl text-justify'>
+            <p className='text-violet-900 font-semibold text-xl text-justify'>
                ¡Qüu es la mejor opción para ti!
             </p>
          </div>

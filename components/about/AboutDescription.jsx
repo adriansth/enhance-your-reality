@@ -14,19 +14,20 @@ export default function AboutDescription() {
             Nos especializamos en cuatro áreas clave:
          </p>
          <ul className='text-violet-900 font-semibold text-xl list-disc pl-10 md:pl-20'>
-            <li>Desarrollo de páginas web y e-commerce</li>
-            <li>Aplicaciones móviles y aplicaciones web</li>
-            <li>Posicionamiento y presencia web</li>
+            <li>Creación de identidad de marca corporativa</li>
+            <li>Estrategias de posicionamiento en redes y presencia web</li>
+            <li>Desarrollo de páginas web y tiendas en línea [e-commerce]</li>
+            <li>Construcción de aplicaciones móviles y aplicaciones web</li>
             <li>Software hecho a la medida</li>
          </ul>
          <p className='text-gray-500 font-light text-xl'>
-            Nuestro equipo de expertos está compuesto por desarrolladores, diseñadores, especialistas en marketing digital y <span className='text-violet-900 font-semibold'>profesionales en tecnología</span> que trabajan juntos para ofrecerte soluciones personalizadas y de alta calidad, <span className='text-violet-900 font-semibold'>alineados a tu visión corporativa</span>.
+            Nuestro equipo de expertos está compuesto por desarrolladores, diseñadores, especialistas en marketing digital y <span className='text-violet-900 font-semibold'>profesionales en tecnología</span> que trabajan juntos para ofrecerte soluciones personalizadas y de alta calidad <span className='text-violet-900 font-semibold'>alineados a tu visión corporativa</span>.
          </p>
          <p className='text-gray-500 font-light text-xl'>
             Ya sea que necesites una <span className='text-violet-900 font-semibold'>página web elegante y fácil de usar</span>, una <span className='text-violet-900 font-semibold'>aplicación móvil</span> para llegar a más clientes, una <span className='text-violet-900 font-semibold'>estrategia de marketing digital para aumentar tus ventas</span>, o un <span className='text-violet-900 font-semibold'>software personalizado para mejorar tus procesos empresariales</span>, estamos aquí para ayudarte.
          </p>
          <p className='text-gray-500 font-light text-xl'>
-            En nuestra empresa, nos esforzamos por ser <span className='text-violet-900 font-semibold'>innovadores, creativos y eficientes en todo lo que hacemos</span>. Nos aseguramos de que cada proyecto que emprendemos sea una <span className='text-violet-900 font-semibold'>experiencia sin problemas y un éxito para nuestros clientes</span>.
+            En nuestra empresa, nos esforzamos por ser <span className='text-violet-900 font-semibold'>innovadores, creativos y eficientes en todo lo que hacemos</span>. Nos aseguramos de que cada proyecto que emprendemos sea una <span className='text-violet-900 font-semibold'>experiencia libre de problemas y que sea todo un éxito para nuestros clientes</span>.
          </p>
          <p className='text-gray-500 font-light text-xl'>
             Entonces, si estás buscando una agencia de tecnología digital dedicada a brindarte soluciones personalizadas y de alta calidad, <span className='text-violet-900 font-semibold'>¡somos la opción perfecta para ti!</span>

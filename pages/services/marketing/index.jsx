@@ -5,6 +5,7 @@ import Navbar from '../../../components/global/Navbar';
 import NavbarDynamic from '../../../components/global/NavbarDynamic';
 import MarketingMain from '../../../components/services/marketing/MarketingMain';
 import MarketingDescription from '../../../components/services/marketing/MarketingDescription';
+import MarketingWidgets from '../../../components/services/marketing/MarketingWidgets';
 import Footer from '../../../components/global/Footer';
 import Copyright from '../../../components/global/Copyright';
 
@@ -25,6 +26,7 @@ export default function MarketingPage() {
                     </div>
                     <MarketingMain />
                     <MarketingDescription />
+                    <MarketingWidgets />
                </main>
                <footer>
                     <Footer />

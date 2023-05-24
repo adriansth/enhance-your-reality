@@ -13,9 +13,9 @@ export default function Footer() {
           <div className='w-screen bg-slate-800 flex justify-center items-center p-10 md:p-20'>
                <div className='w-[70%] md:w-[30%] flex flex-col gap-y-5'>
                     {/* logo */}
-                    <div className='flex justify-center items-center'>
+                    <div className='flex justify-center items-center pb-10'>
                          <Link href='/'>
-                              <Image src={logo} />
+                              <Image src={logo} className='w-[200px]' />
                          </Link>
                     </div>
                     {/* navs */}

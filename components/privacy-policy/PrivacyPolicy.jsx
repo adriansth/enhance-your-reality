@@ -1,11 +1,23 @@
+// next
+import Image from 'next/image';
+// assets
+import img from '../../media/privacy-policy.webp';
+
 export default function PrivacyPolicy() {
      return(
-          <div className='w-screen'>
+          <div className='w-screen relative'>
                {/* heading */}
-               <div className='bg-violet-900 pt-36 pb-10 shadow-md flex flex-col items-center px-8'>
-                    <h1 className='text-4xl md:text-7xl font-bold text-white text-center mb-5'>Aviso de Privacidad</h1>
-                    <div className='w-[40%] h-1 bg-gray-400 mb-5'></div>
-                    <h2 className='text-xl md:text-4xl text-white font-semibold text-center'>Qüu | Enhance Your Reality</h2>
+               <div>
+                    {/* text */}
+                    <div className='h-[450px] pt-48 pb-10 shadow-md flex flex-col items-center px-8'>
+                         <h1 className='text-4xl md:text-7xl font-bold text-white text-center mb-5'>Aviso de Privacidad</h1>
+                         <div className='w-[40%] h-1 bg-gray-600 mb-5'></div>
+                         <h2 className='text-xl md:text-4xl text-white font-semibold text-center'>Qüu | Enhance Your Reality</h2>
+                    </div>
+                    {/* bg image */}
+                    <div className='absolute top-0 w-screen h-[450px] z-[-1]'>
+                         <Image src={img} className='w-full h-full object-cover'></Image>
+                    </div>
                </div>
                {/* text */}
                <div className='w-full bg-white px-8 md:px-16 lg:px-64 py-20'>
@@ -184,7 +196,7 @@ export default function PrivacyPolicy() {
                          </p>
                          <h3 className='font-bold text-black'>Contacto</h3>
                          <p>
-                              En caso de que tenga cualquier pregunta sobre de este Aviso de privacidad, contáctenos vía correo electrónico a: contacto@enhanceyoureality.com , por teléfono fijo a los números: (55) 55555555
+                              En caso de que tenga cualquier pregunta sobre de este Aviso de privacidad, contáctenos vía correo electrónico a: contacto@enhanceyoureality.com , por teléfono fijo a los números: +52 55 3949 8680
                          </p>
                     </div>
                </div>

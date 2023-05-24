@@ -17,7 +17,7 @@ export default function ServicesShowcase() {
                     En Qüu [EYR] creemos que la tecnología puede ser una herramienta poderosa para <span className='text-violet-900 font-semibold'>ayudar a las empresas a crecer y alcanzar su máximo potencial</span>, es por esto por lo que brindamos un servicio con un enfoque colaborativo centrado en las necesidades del cliente y de esta manera proporcionamos <span className='font-semibold text-violet-900'>soluciones de tecnología personalizada que se ajusten a sus requerimientos específicos</span>.
                </p>
                <p className='sm:px-10 font-light text-gray-500 text-sm sm:text-xl text-justify pb-10'>
-                    Valoramos la honestidad y transparencia en todo momento, nos aseguramos de <span className='font-semibold text-violet-900'>mantener una comunicación clara y abierta con nuestros clientes</span> para garantizar que cada proyecto sea una experiencia sin problemas y que todos disfrutemos de la aventura al estar completamente satisfecho con el resultado final.
+                    Valoramos la honestidad y transparencia en todo momento, nos aseguramos de <span className='font-semibold text-violet-900'>mantener una comunicación clara y abierta con nuestros clientes</span> para garantizar que cada proyecto sea una experiencia libre de problemas y contratiempos para que todos disfrutemos de la aventura al estar completamente satisfecho con el resultado final.
                </p>
                <div className='w-full flex flex-col gap-y-5 items-center'>
                     {/* services card */}

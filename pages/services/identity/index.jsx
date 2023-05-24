@@ -3,6 +3,9 @@ import Head from 'next/head';
 // components
 import Navbar from '../../../components/global/Navbar';
 import NavbarDynamic from '../../../components/global/NavbarDynamic';
+import IdentityMain from '../../../components/services/identity/IdentityMain';
+import IdentityDescription from '../../../components/services/identity/IdentityDescription';
+import IdentityWidgets from '../../../components/services/identity/IdentityWidgets';
 import Footer from '../../../components/global/Footer';
 import Copyright from '../../../components/global/Copyright';
 
@@ -21,6 +24,9 @@ export default function IdentityPage() {
                               <NavbarDynamic />
                          </div>
                     </div>
+                    <IdentityMain />
+                    <IdentityDescription />
+                    <IdentityWidgets />
                </main>
                <footer>
                     <Footer />

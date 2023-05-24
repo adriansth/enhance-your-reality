@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Navbar from '../../../components/global/Navbar';
 import NavbarDynamic from '../../../components/global/NavbarDynamic';
 import WebDevelopmentMain from '../../../components/services/web-development/WebDevelopmentMain';
-import WebDevelopmentShocase from '../../../components/services/web-development/WebDevelopmentShowcase';
+import WebDevelopmentShowcase from '../../../components/services/web-development/WebDevelopmentShowcase';
 import Footer from '../../../components/global/Footer';
 import Copyright from '../../../components/global/Copyright';
 
@@ -24,7 +24,7 @@ export default function WebDevelopmentPage() {
                          </div>
                     </div>
                     <WebDevelopmentMain />
-                    <WebDevelopmentShocase />
+                    <WebDevelopmentShowcase />
                </main>
                <footer>
                     <Footer />

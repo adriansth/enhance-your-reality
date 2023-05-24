@@ -14,9 +14,9 @@ export default function AboutWidgets() {
         </div>
         {/* widget 2 */}
         <div className="w-full md:w-[33.3vw] h-full bg-slate-100 flex flex-col gap-y-5 items-start justify-center p-10 sm:p-20 md:p-10 xl:p-20">
-          <h2 className="text-4xl xl:text-5xl font-bold w-full">ÉXITO</h2>
+          <h2 className="text-4xl xl:text-5xl font-bold w-full">LOGROS</h2>
           <p className="text-gray-500 font-light text-sm xl:text-md">
-            Nuestro trabajo ha incrementado el alcance y la presencia online de nuestros clientes. Combinamos servicios de identidad corporativa, estrategias de marketing y desarrollo de soluciones web promoviendo soluciones creativas que faciliten las operaciones de nuestros clientes. 
+            Nuestro trabajo ha incrementado el alcance y la presencia en línea de nuestros clientes. Combinamos servicios de consultoría, identidad corporativa, estrategias de marketing y desarrollo de soluciones web creativas promoviendo que faciliten las operaciones de nuestros clientes. 
           </p>
           <Link href='/portfolio' className="transition-colors text-sm xl:text-lg bg-violet-900 px-5 xl:px-10 py-3 xl:py-5 font-bold text-white flex items-center gap-x-2 hover:bg-sky-300 shadow-lg rounded-lg">
             <span>Ver más</span>

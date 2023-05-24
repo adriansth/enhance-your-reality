@@ -1,5 +1,6 @@
 // icons 
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
+import { EnvelopeIcon } from '@heroicons/react/24/solid';
 // next
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,6 +9,7 @@ import twitter from '../../media/twitter.png';
 import instagram from '../../media/instagram.png';
 import linkedin from '../../media/linkedin.png';
 import facebook from '../../media/facebook.png';
+import whatsapp from '../../media/whatsapp.png';
 // hooks 
 import { useState, useEffect } from 'react'; 
 // redux 
@@ -130,11 +132,24 @@ export default function Contact() {
          {/* contact info */}
          <div className='w-full md:w-[45%] flex flex-col gap-y-5'>
             <h2 className='text-3xl md:text-5xl font-semibold'>Contáctanos</h2>
-            <p className='font-light text-gray-700 text-xl text-justify'>Para adquisición de alguno de nuestros servicios, dudas o más información; utiliza este formulario de contacto. Nosotros nos pondremos en contacto contigo al correo proporcionado y abriremos una conversación con respecto a tus inquietudes.</p>
+            <p className='font-light text-gray-700 text-xl text-justify'>¿Estás buscando mejorar la presencia en línea de tu empresa o negocio?
+               Complete nuestro formulario y un miembro de nuestro equipo se contactará contigo y junto con nuestros expertos lograremos llevar su presencia empresarial al siguiente nivel. ¡Contáctenos ya!
+            </p>
             <div className='flex flex-col'>
-               <span className='text-xl font-semibold text-violet-900'>
-                  contacto@enhanceyoureality.com
-               </span>
+               {/* email */}
+               <div className='text-xl font-semibold text-violet-900 flex gap-x-2 items-center'>
+                  <EnvelopeIcon className='w-5' />
+                  <span>
+                     contacto@enhanceyoureality.com
+                  </span>
+                  <span className='font-light text-black'>[Si, con una 'r']</span>
+               </div>
+               {/* cellphone */}
+               <div className='text-xl font-semibold text-violet-900 flex gap-x-2 items-center'>
+                  <Image src={whatsapp} className='w-5 h-5 object-cover' />
+                  <span>+52 55 3949 8680</span>
+               </div>
+               {/* social media */}
                <div className='w-full flex justify-start gap-x-3 py-10'>
                   <Link href='https://www.instagram.com/enhanceyoureality/' target='_blank'>
                      <Image src={instagram} alt="" className='hover:opacity-50 cursor-pointer' />

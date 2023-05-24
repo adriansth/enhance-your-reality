@@ -142,7 +142,7 @@ export default function Contact() {
                   <span>
                      contacto@enhanceyoureality.com
                   </span>
-                  <span className='font-light text-black'>[Si, con una 'r']</span>
+                  <span className='font-light text-black'>[Si, con una "r"]</span>
                </div>
                {/* cellphone */}
                <div className='text-xl font-semibold text-violet-900 flex gap-x-2 items-center'>

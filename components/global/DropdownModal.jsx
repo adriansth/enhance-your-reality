@@ -13,7 +13,7 @@ export default function DropdownModal() {
    return(
       <div className='bg-violet-900 w-screen h-screen p-10 flex flex-col justify-center items-center gap-y-10 text-2xl font-semibold text-white fixed z-[1000]'>
          <div className='w-full flex justify-center'>
-            <XMarkIcon onClick={closeModal1} className='w-10 text-white hover:text-sky-300 transition-colors cursor-pointer' />
+            <XMarkIcon onClick={closeModal} className='w-10 text-white hover:text-sky-300 transition-colors cursor-pointer' />
          </div>
          <span className='hover:text-sky-300 cursor-pointer transition-colors'>
             <Link href='/' onClick={closeModal}>Home</Link>
